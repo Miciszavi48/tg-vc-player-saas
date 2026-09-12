@@ -1,0 +1,20 @@
+{
+  "notifications": {
+    "install": "<b>📥 New Install</b>\n\n▪️ Chat: {chat_title}\n▪️ Type: {chat_type}\n▪️ ID: <code>{chat_id}</code>\n▪️ Installer: {sudo_info}\n▪️ Role: {installer_role}\n▪️ Policy: {policy_mode}\n▪️ Time: {timestamp}",
+    "sudo_added": "<b>➕ Sudo Added</b>\n\n▪️ User: <code>{target_user_id}</code> ({username})\n▪️ By: <code>{actor_id}</code>\n▪️ Time: {timestamp}",
+    "sudo_removed": "<b>➖ Sudo Removed</b>\n\n▪️ User: <code>{target_user_id}</code>\n▪️ By: <code>{actor_id}</code>\n▪️ Time: {timestamp}",
+    "owner_added": "<b>➕ Player Owner Added</b>\n\n▪️ User: <code>{target_user_id}</code> ({username})\n▪️ By: <code>{actor_id}</code>\n▪️ Time: {timestamp}",
+    "owner_removed": "<b>➖ Player Owner Removed</b>\n\n▪️ User: <code>{target_user_id}</code>\n▪️ By: <code>{actor_id}</code>\n▪️ Time: {timestamp}",
+    "bot_start": "<b>▶️ Bot Started</b>\n\n▪️ User: <code>{user_id}</code> ({username})\n▪️ Role: {role}\n▪️ Time: {timestamp}",
+    "uninstall": "<b>📤 Uninstalled</b>\n\n▪️ Chat: {chat_title}\n▪️ Type: {chat_type}\n▪️ ID: <code>{chat_id}</code>",
+    "credit_charge": "<b>💳 Credit Recharged</b>\n\n▪️ Chat ID: <code>{chat_id}</code>\n▪️ Amount: {days} days\n▪️ By: {sudo_info}\n▪️ Time: {timestamp}",
+    "credit_warning": "<b>⚠️ Credit Warning</b>\n\n▪️ Chat ID: <code>{chat_id}</code>\n▪️ Remaining: {remaining_days} days\n\n💡 Please renew your credit soon to avoid service interruption.",
+    "credit_expired": "<b>⏰ Credit Expired</b>\n\n▪️ Chat ID: <code>{chat_id}</code>\n\n💡 Credit has expired. The bot will stop providing services here until recharged.",
+    "error": "❌ <b>Error:</b> {error_text}",
+    "health_degraded": "<b>⚠️ Health Alert</b>\n\n▪️ Status: DEGRADED\n▪️ Failed Services: {failed}",
+    "credit_warning_sudo_dm": "⚠️ Credit Warning: Chat <code>{chat_id}</code> has {remaining_days} days left.",
+    "credit_expired_sudo_dm": "⏰ Credit Expired: Chat <code>{chat_id}</code> ran out of credit.",
+    "auto_leave_sudo_dm": "<b>⚠️ Auto-Leave Triggered</b>\n\n▪️ Chat: {chat_title} (<code>{chat_id}</code>)\n▪️ Reason: Zero credit remaining",
+    "credit_by_user": "User <code>{user_id}</code>"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "updateSkill",
+  "description": "Actualiza un skill instalado usando su ID (owner/repo@skill)",
+  "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "skillId": {
+        "type": "string",
+        "description": "ID del skill a actualizar, ej: owner/repo@skill"
+      }
+    },
+    "required": [
+      "skillId"
+    ]
+  }
+}

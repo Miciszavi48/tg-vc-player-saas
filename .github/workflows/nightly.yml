@@ -1,0 +1,74 @@
+name: Nightly Heavy Test Suite
+
+on:
+  schedule:
+    # Run every night at 02:00 UTC (off-peak)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      test_suite:
+        description: 'Test suite to execute'
+        required: true
+        default: 'integration'
+        type: choice
+        options:
+          - 'integration'
+          - 'handlers'
+          - 'all'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  heavy-tests:
+    name: Heavy Tests (Python 3.12)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install system audio dependencies (FFmpeg & Opus)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg libopus0 libopus-dev
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -r requirements.txt
+          pip install --no-deps pyromod
+          pip install "py-tgcalls[pyrogram]"
+          pip install --no-deps --force-reinstall https://github.com/KurimuzonAkuma/pyrogram/archive/dev.zip
+          pip install pytest pytest-asyncio aiosqlite fakeredis "python-socks[asyncio]" pysocks
+
+      - name: Run Nightly / Scheduled Tests
+        env:
+          TEST_MODE: '1'
+          DATABASE_URL: 'sqlite+aiosqlite:///./.pytest-test-mode.db'
+          REDIS_URL: 'redis://localhost:6379/15'
+          BOT_TOKEN: '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
+          API_ID: '12345'
+          API_HASH: '0123456789abcdef0123456789abcdef'
+          DEVELOPER_ID: '123456789'
+          INSTANCE_ID: 'nightly-ci'
+          PYTHONPATH: '.'
+        run: |
+          SUITE="${{ github.event.inputs.test_suite || 'integration' }}"
+          if [ "$SUITE" = "integration" ]; then
+            echo "Running integration test suite..."
+            pytest tests/integration/ -v
+          elif [ "$SUITE" = "handlers" ]; then
+            echo "Running handlers test suite..."
+            pytest tests/handlers/ -v
+          else
+            echo "Running full test suite..."
+            pytest -v
+          fi

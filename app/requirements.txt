@@ -1,0 +1,32 @@
+# ── Telegram Framework ────────────────────────────────────────────────
+# Kurigram fork is installed by setup_server.sh outside this file to avoid
+# resolver conflicts. pyromod is installed with --no-deps; py-tgcalls[pyrogram]
+# is installed WITH dependencies (ntgcalls); Kurigram is force-reinstalled last.
+# PyPI name is py-tgcalls; import name is pytgcalls.
+# Legacy fallback (22.04 only): pip install pytgcalls tgcalls
+# Verify on server: python scripts/check_voice_stack.py
+TgCrypto>=1.2.5
+
+# ── Database & ORM ───────────────────────────────────────────────────
+SQLAlchemy[asyncio]==2.0.28
+asyncpg==0.29.0
+alembic==1.13.1
+
+# ── Caching & Concurrency ───────────────────────────────────────────
+redis==5.0.3
+
+# ── Task Scheduling & System Monitoring ──────────────────────────────
+apscheduler==3.10.4
+psutil==5.9.8
+
+# ── Media Processing ────────────────────────────────────────────────
+yt-dlp>=2024.3.10
+yt-dlp-ejs>=0.8.0,<0.9
+
+# ── Utilities ────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+loguru==0.7.2
+jdatetime==4.1.1
+cryptography==42.0.5
+aiohttp==3.9.5
+aiofiles==23.2.1

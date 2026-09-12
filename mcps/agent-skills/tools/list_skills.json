@@ -1,0 +1,23 @@
+{
+  "name": "list_skills",
+  "description": "Browse all available skills grouped by category.\nWhen: User explicitly asks to see/browse/list all skills (e.g. \"what skills are available?\", \"show me all skills\").\nDo NOT call proactively during normal task resolution — use search_skills instead.",
+  "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "explicit_request": {
+        "type": "boolean",
+        "const": true
+      },
+      "description_max_chars": {
+        "default": 120,
+        "type": "integer",
+        "minimum": 40,
+        "maximum": 240
+      }
+    },
+    "required": [
+      "explicit_request"
+    ]
+  }
+}

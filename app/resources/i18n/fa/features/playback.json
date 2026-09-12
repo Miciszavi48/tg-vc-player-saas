@@ -1,0 +1,83 @@
+{
+  "playback": {
+    "choose_source": "لطفاً یکی از گزینه‌های زیر را برای پخش انتخاب کنید:",
+    "choose_tv": "لطفاً یک شبکه را برای تماشا انتخاب کنید:",
+    "now_playing": "<b>🎧 در حال پخش</b>\n\n▪️ درخواست‌کننده: {user}\n▪️ زمان: <code>{datetime}</code>",
+    "track_card": {
+      "title": "🎵 {title}",
+      "artist": "▪️ خواننده: {artist}",
+      "duration": "▪️ زمان: {duration}",
+      "requested_by": "▪️ درخواست‌کننده: {user}"
+    },
+    "types": {
+      "audio": "صوتی",
+      "video": "تصویری",
+      "tv": "تلویزیون",
+      "satellite": "ماهواره",
+      "radio": "رادیو",
+      "download": "دانلود رسانه"
+    },
+    "controls": {
+      "vol_up": "🔊 افزایش",
+      "vol_down": "🔉 کاهش",
+      "speed_up": "⏩ تند",
+      "speed_down": "⏪ کند",
+      "next": "⏭ بعدی",
+      "prev": "⏮ قبلی",
+      "not_implemented": "⚠️ این قابلیت هنوز پیاده‌سازی نشده است.",
+      "previous_unavailable": "⚠️ پخش آهنگ قبلی به دلیل عدم ذخیره تاریخچه امکان‌پذیر نیست.",
+      "serial_coming_soon": "⏳ این قابلیت به‌زودی اضافه می‌شود.",
+      "seek_unavailable": "⚠️ قابلیت پرش در موتور پخش فعلی پشتیبانی نمی‌شود.",
+      "speed_unavailable": "⚠️ کنترل سرعت در موتور پخش فعلی پشتیبانی نمی‌شود.",
+      "repeat_on": "🔁 تکرار: روشن",
+      "repeat_off": "🔁 تکرار: خاموش",
+      "fav_add": "⭐ افزودن به علاقه‌مندی‌ها",
+      "fav_play": "⭐ لیست علاقه‌مندی‌ها",
+      "seek_invalid_seconds": "⚠️ مقدار پرش نامعتبر است.",
+      "seek_live_unsupported": "⚠️ پرش برای پخش زنده پشتیبانی نمی‌شود.",
+      "seek_unsupported_media": "⚠️ پرش برای این نوع رسانه پشتیبانی نمی‌شود.",
+      "seek_source_unavailable": "⚠️ منبع قابل پرش در دسترس نیست.",
+      "seek_end": "به انتهای رسانه رسیده‌اید.",
+      "seek_start": "به ابتدای رسانه رسیده‌اید.",
+      "seek_failed": "⚠️ پرش در پخش ناموفق بود.",
+      "seek_set_position": "⏩ موقعیت پخش: {position}",
+      "speed_max": "سرعت در بیشترین مقدار است: {speed}x",
+      "speed_min": "سرعت در کمترین مقدار است: {speed}x",
+      "speed_live_unsupported": "⚠️ تغییر سرعت برای پخش زنده پشتیبانی نمی‌شود.",
+      "speed_unsupported_media": "⚠️ تغییر سرعت برای این نوع رسانه پشتیبانی نمی‌شود.",
+      "speed_source_unavailable": "⚠️ منبع قابل تغییر سرعت در دسترس نیست.",
+      "speed_change_failed": "⚠️ تغییر سرعت ناموفق بود.",
+      "speed_set_position": "🎚 سرعت پخش: {speed}x"
+    },
+    "type_hints": {
+      "audio": "برای پخش آهنگ بنویسید: <code>پخش [نام آهنگ]</code> یا <code>پخش [لینک]</code>.\nمی‌توانید روی فایل صوتی ریپلای کرده و بنویسید: <code>پخش</code>.",
+      "video": "برای پخش ویدیو بنویسید: <code>پخش ویدیو [لینک]</code>.\nمی‌توانید روی فایل ویدیویی ریپلای کرده و بنویسید: <code>پخش</code>.",
+      "download": "برای دانلود، دستور <code>/download</code> را روی فایل صوتی/ویدیویی یا لینک رسانه ریپلای کنید."
+    },
+    "queue": {
+      "empty": "⚠️ لیست انتظار خالی است.",
+      "added": "✅ به صف پخش اضافه شد.",
+      "skipped": "⏭ آهنگ رد شد."
+    },
+    "repeat_enabled": "✅ حالت تکرار <b>روشن</b> شد 🔁",
+    "repeat_disabled": "❌ حالت تکرار <b>خاموش</b> شد 🔁"
+  },
+  "now_playing": {
+    "header": "<b>🎧 در حال پخش</b>",
+    "header_audio": "<b>🎵 موزیک در حال پخش</b>",
+    "header_video": "<b>🎬 ویدیو در حال پخش</b>",
+    "status_playing": "▪️ وضعیت: در حال پخش",
+    "title_line": "▪️ عنوان: {title}",
+    "media_type_line": "▪️ نوع: {media_type}",
+    "duration_line": "▪️ زمان: {duration}",
+    "requester_line": "▪️ درخواست: {requester}",
+    "unknown_title": "نامشخص",
+    "audio": "صوتی",
+    "video": "تصویری",
+    "radio": "رادیو",
+    "tv": "تلویزیون",
+    "satellite": "ماهواره",
+    "track_id": "▪️ شناسه: {track_id}",
+    "minimal_title": "<b>🎧 در حال پخش</b>"
+  }
+}

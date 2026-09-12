@@ -1,0 +1,14 @@
+{
+  "helper": {
+    "health": {
+      "all_ok": "✅ All helper accounts are functioning properly.",
+      "degraded": "⚠️ Warning: Some helper accounts are unavailable.",
+      "critical": "🔴 Critical: No helper accounts are available!"
+    },
+    "security": {
+      "call_started": "🔒 Voice chat security activated.",
+      "call_ended": "🔓 Voice chat security deactivated.",
+      "intruder_removed": "🚫 Unauthorized user removed from the call."
+    }
+  }
+}

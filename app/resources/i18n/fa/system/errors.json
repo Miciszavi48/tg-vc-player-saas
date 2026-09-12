@@ -1,0 +1,6 @@
+{
+  "errors": {
+    "install_paid_required": "نصب این پلیر نیاز به پرداخت دارد.",
+    "install_whitelisted_free": "این گروه/کانال در لیست نصب رایگان قرار دارد."
+  }
+}

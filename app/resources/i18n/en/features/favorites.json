@@ -1,0 +1,15 @@
+{
+  "favorites": {
+    "added": "✅ Added to favorites.",
+    "removed": "❌ Removed from favorites.",
+    "list_title": "<b>⭐ Your Favorites</b>",
+    "list_empty": "⚠️ Your favorites list is empty.",
+    "list_item": "✧ {title} ({duration})",
+    "playing": "<b>🎧 Playing Favorites</b>",
+    "no_track": "⚠️ No media in favorites.",
+    "item_unavailable": "⚠️ Playing saved media is currently unavailable.",
+    "list_header": "<b>⭐ Your Favorites</b>",
+    "remove_btn": "🗑 Remove",
+    "removed_toast": "✅ Removed."
+  }
+}

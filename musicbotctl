@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+set -euo pipefail
+UNIT='musicbot-musicbot.service'
+ROOT='/opt/musicbot'
+ENV_FILE='/opt/musicbot/app/config.env'
+VENV='/opt/musicbot/venv'
+INSTANCE='musicbot'
+REGISTRY='/etc/musicbot/instances/musicbot.conf'
+BACKUPS='/opt/musicbot/var/backups'
+UNIT_FILE='/etc/systemd/system/musicbot-musicbot.service'
+
+env_value() {
+    sudo -u 'musicbot' sed -n "s/^$1=//p" "$ENV_FILE" | tail -n 1
+}
+
+case "${1:-status}" in
+    status) sudo systemctl status "$UNIT" --no-pager ;;
+    start) sudo systemctl start "$UNIT" ;;
+    restart) sudo systemctl restart "$UNIT" ;;
+    stop) sudo systemctl stop "$UNIT" ;;
+    logs) sudo journalctl -u "$UNIT" -f ;;
+    migrate)
+        cd "$ROOT/app"
+        sudo -u 'musicbot' env MUSICBOT_ENV_FILE="$ENV_FILE"             PYTHONPATH="$ROOT" "$VENV/bin/alembic" upgrade head
+        ;;
+    backup)
+        sudo -u 'musicbot' mkdir -p "$BACKUPS"
+        stamp="$(date +%Y%m%d_%H%M%S)"
+        db_url="$(env_value DATABASE_URL | sed 's/+asyncpg//')"
+        output="$BACKUPS/${INSTANCE}_manual_${stamp}.sql.gz"
+        sudo -u 'musicbot' bash -c             'pg_dump "$1" | gzip -9 > "$2"' _ "$db_url" "$output"
+        ;;
+    restore)
+        [[ $# -eq 2 && -f "$2" ]] || {
+            echo "Usage: $0 restore /path/to/backup.sql.gz" >&2
+            exit 2
+        }
+        sudo systemctl is-active --quiet "$UNIT" && {
+            echo "Stop $UNIT before restore" >&2
+            exit 1
+        }
+        db_url="$(env_value DATABASE_URL | sed 's/+asyncpg//')"
+        sudo -u 'musicbot' bash -c             'gzip -dc "$1" | psql "$2"' _ "$2" "$db_url"
+        ;;
+    upgrade)
+        release="${2:-$ROOT}"
+        sudo "$release/setup_server.sh" --upgrade             --instance "$INSTANCE" --path "$ROOT" --source "$release"
+        ;;
+    uninstall)
+        sudo systemctl disable --now "$UNIT" 2>/dev/null || true
+        sudo rm -f "$UNIT_FILE" "$REGISTRY"
+        sudo systemctl daemon-reload
+        echo "Unit removed. Database, app/config.env, backups, sessions, and $ROOT were preserved."
+        ;;
+    *)
+        echo "Usage: $0 {status|start|restart|stop|logs|migrate|backup|restore|upgrade|uninstall}" >&2
+        exit 2
+        ;;
+esac

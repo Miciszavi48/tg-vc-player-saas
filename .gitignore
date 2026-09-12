@@ -1,0 +1,167 @@
+# ==============================================================================
+# GitIgnore for Telegram VC Player SaaS (Production & Public Ready)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment & Configuration Secrets
+# ------------------------------------------------------------------------------
+*.env
+*.env.*
+*.env-*
+.env
+.env.*
+config.env
+config.env.*
+app/config.env
+app/config.env.*
+*.env.bak*
+app/config.env.disposable
+config.env.disposable
+
+# Whitelist allowed template & test configuration files
+!.env.example
+!config.env.example
+!app/config.env.example
+!app/config.env.disposable.example
+!app/config.env.test.example
+!tests/pytest-isolated.env
+
+# ------------------------------------------------------------------------------
+# 2. Telegram Sessions & Auth Tokens
+# ------------------------------------------------------------------------------
+*.session
+*.session-journal
+*.session_string
+sessions/*
+!sessions/.gitkeep
+app/sessions/*
+!app/sessions/.gitkeep
+var/sessions/*
+!var/sessions/.gitkeep
+
+# ------------------------------------------------------------------------------
+# 3. Databases, Migrations & SQLite Runtime Files
+# ------------------------------------------------------------------------------
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*-wal
+*-shm
+*.sql
+*.sql.gz
+*.rdb
+dump.rdb
+.callback-matrix-audit.db
+.exec-sim.db
+.pytest-test-mode.db
+.pytest-*.db
+
+# ------------------------------------------------------------------------------
+# 4. Python Bytecode, Builds & Packaging
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# 5. Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# ------------------------------------------------------------------------------
+# 6. Testing, Quality & Caching Directories
+# ------------------------------------------------------------------------------
+.pytest_cache/
+.pytest-tmp/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+.cache/
+
+# ------------------------------------------------------------------------------
+# 7. Runtime Directories, Media & Logs
+# ------------------------------------------------------------------------------
+logs/*
+!logs/.gitkeep
+app/logs/*
+!app/logs/.gitkeep
+var/logs/*
+!var/logs/.gitkeep
+*.log
+*.log.gz
+downloads/*
+!downloads/.gitkeep
+cache/*
+!cache/.gitkeep
+var/cache/*
+!var/cache/.gitkeep
+tmp/*
+!tmp/.gitkeep
+var/tmp/*
+!var/tmp/.gitkeep
+backups/*
+!backups/.gitkeep
+var/backups/*
+!var/backups/.gitkeep
+var/*
+!var/.gitkeep
+.musicbot-instance-id
+
+# ------------------------------------------------------------------------------
+# 8. Web Credentials & Media Cookies
+# ------------------------------------------------------------------------------
+www.youtube.com_cookies*.txt
+*cookies*.txt
+
+# ------------------------------------------------------------------------------
+# 9. Temporary Scratch Files & One-off Scripts
+# ------------------------------------------------------------------------------
+fix_tests.py
+fix_tests_*.py
+patch_script.py
+patch_script*.py
+scratch_chunk_*.txt
+scratch_dump.txt
+scratch_dump_*.txt
+search_summary.txt
+tree.txt
+sample.py
+make_tree.py
+tg-vc-player-saas.zip
+
+# ------------------------------------------------------------------------------
+# 10. IDE & OS Metadata
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
+
+

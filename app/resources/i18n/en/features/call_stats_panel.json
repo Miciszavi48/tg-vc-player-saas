@@ -1,0 +1,31 @@
+{
+  "call_stats_panel": {
+    "invalid_callback": "⚠️ Invalid callback.",
+    "feature_disabled": "⚠️ Call stats feature is disabled.",
+    "menu_title": "<b>📊 Call Statistics</b>\n\nSelect a report period.",
+    "btn_group_all": "All Group Calls",
+    "btn_group_week": "Group This Week",
+    "btn_group_today": "Group Today",
+    "btn_vip_all": "All VIP Calls",
+    "btn_vip_week": "VIP This Week",
+    "btn_vip_today": "VIP Today",
+    "btn_admin_all": "All Admin Calls",
+    "btn_admin_week": "Admin This Week",
+    "btn_admin_today": "Admin Today",
+    "empty": "No data available for this period.",
+    "period_line": "🗓 Report period: {period}",
+    "period_all": "All time",
+    "period_week": "This week",
+    "period_today": "Today",
+    "title_group": "Group Report",
+    "title_vip": "VIP Report",
+    "title_admin": "Admin Report",
+    "from_date": "📅 From: {date}",
+    "from_time": "⏰ Time: {time}",
+    "total_duration": "⏱ Total: {duration}",
+    "user_line": "{medal} {user}: {duration} ({percent}%)",
+    "separator": "┈┅┅━━━━━━━━━━━━┅┅┈",
+    "truncated_note": "⚠️ Some results were hidden.",
+    "capped_note": "⚠️ Only top users are shown."
+  }
+}

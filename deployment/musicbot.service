@@ -1,0 +1,37 @@
+# Example only. Do not copy this file directly.
+# Generate the real unit with:
+#   sudo ./setup_server.sh --instance musicbot-a --path /opt/musicbot-a
+
+[Unit]
+Description=MusicBot instance musicbot-a
+After=network-online.target postgresql.service redis-server.service
+Wants=network-online.target postgresql.service redis-server.service
+
+[Service]
+Type=simple
+User=mb-musicbot-a
+Group=mb-musicbot-a
+WorkingDirectory=/opt/musicbot-a
+EnvironmentFile=/opt/musicbot-a/.env
+Environment="PYTHONPATH=/opt/musicbot-a"
+Environment="MUSICBOT_ENV_FILE=/opt/musicbot-a/.env"
+Environment="PATH=/opt/musicbot-a/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+ExecStart=/opt/musicbot-a/venv/bin/python -m app.main
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=45
+KillSignal=SIGTERM
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=musicbot-musicbot-a
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+RuntimeDirectory=musicbot-musicbot-a
+RuntimeDirectoryMode=0750
+ReadWritePaths=/opt/musicbot-a/var /run/musicbot-musicbot-a
+
+[Install]
+WantedBy=multi-user.target

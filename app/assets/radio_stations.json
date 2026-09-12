@@ -1,0 +1,104 @@
+[
+  {
+    "id": "rjavan",
+    "name": "رادیو جوان",
+    "url": "https://stream.rjtv.stream/live/smil:rjtv.smil/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "rpayam",
+    "name": "رادیو پیام",
+    "url": "https://livestream.irib.ir/live/rpayam.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "rvarzesh",
+    "name": "رادیو ورزش",
+    "url": "https://livestream.irib.ir/live/rvarzesh.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_javan_tv_1080p",
+    "name": "Radio Javan TV (1080p)",
+    "url": "https://rjtvhls.wns.live/hls/stream.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_iran",
+    "name": "رادیو ایران",
+    "url": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-iran/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_tehran",
+    "name": "رادیو تهران",
+    "url": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-tehran/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_farhang",
+    "name": "رادیو فرهنگ",
+    "url": "http://s0.cdn1.iranseda.ir:1935/liveedge/radio-farhang/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_quran",
+    "name": "رادیو قرآن",
+    "url": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-quran/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_eghtesad",
+    "name": "رادیو اقتصاد",
+    "url": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-eghtesad/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_javan_irib",
+    "name": "رادیو جوان (صدا و سیما)",
+    "url": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-javan/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_maaref",
+    "name": "رادیو معارف",
+    "url": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-maaref/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_ava",
+    "name": "رادیو آوا",
+    "url": "http://s2.cdn1.iranseda.ir:1935/liveedge/radio-avaa/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_payam_iranseda",
+    "name": "رادیو پیام (ایرانصدا)",
+    "url": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-payam/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_ziarat",
+    "name": "رادیو زیارت",
+    "url": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-ziarat/playlist.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "parstoday_radio",
+    "name": "ParsToday Radio",
+    "url": "https://live1.presstv.com/live/irib8/index.m3u8",
+    "country": "IR"
+  },
+  {
+    "id": "radio_farda",
+    "name": "رادیو فردا",
+    "url": "https://stream.radiojar.com/cp13r2cpn3quv",
+    "country": "CZ"
+  },
+  {
+    "id": "radio_zamaneh",
+    "name": "رادیو زمانه",
+    "url": "https://stream.radiozamaneh.com/stream",
+    "country": "NL"
+  }
+]

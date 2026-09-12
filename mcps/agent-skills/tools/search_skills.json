@@ -1,0 +1,17 @@
+{
+  "name": "search_skills",
+  "description": "Step 1 of 3. Discovers skills by intent when the user describes a task without naming a specific skill.\nInput: A concise intent phrase, e.g. \"react component testing\" or \"aws lambda deployment\".\nReturns: Up to 5 skills ranked by relevance (name, description, category, score 0-100, match_quality).\nThen: Pick the best match and call read_skill with its name.\nTips: Multi-word = AND. Use | for OR. Use = for exact match.",
+  "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "query": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "query"
+    ]
+  }
+}

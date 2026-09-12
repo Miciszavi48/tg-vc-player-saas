@@ -1,0 +1,41 @@
+# Compatibility copy. The canonical runtime dependency file is
+# app/requirements.txt, and setup_server.sh installs this native-server stack.
+# ── Telegram Framework ────────────────────────────────────────────────
+# Custom Pyrogram fork — MUST be installed by setup_server.sh
+# (not listed here to avoid pip resolver conflicts with pyromod/pytgcalls)
+# pip install https://github.com/KurimuzonAkuma/pyrogram/archive/dev.zip --force-reinstall
+TgCrypto>=1.2.5
+
+# pyromod: install with --no-deps (setup_server.sh) to avoid stock pyrogram.
+# Voice chat (PyTgCalls): NOT listed here to avoid pip resolver conflicts.
+# setup_server.sh installs:
+#   pip install --no-deps pyromod
+#   pip install "py-tgcalls[pyrogram]"   # WITH deps (pulls ntgcalls wheels)
+#   pip install --force-reinstall Kurigram dev.zip last
+# PyPI name is py-tgcalls; import name is pytgcalls.
+# Legacy fallback (22.04 only, if py-tgcalls fails): pip install pytgcalls tgcalls
+# Verify on server: python scripts/check_voice_stack.py
+
+# ── Database & ORM ───────────────────────────────────────────────────
+SQLAlchemy[asyncio]==2.0.28
+asyncpg==0.29.0
+alembic==1.13.1
+
+# ── Caching & Concurrency ───────────────────────────────────────────
+redis==5.0.3
+
+# ── Task Scheduling & System Monitoring ──────────────────────────────
+apscheduler==3.10.4
+psutil==5.9.8
+
+# ── Media Processing ────────────────────────────────────────────────
+yt-dlp>=2024.3.10
+yt-dlp-ejs>=0.8.0,<0.9
+
+# ── Utilities ────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+loguru==0.7.2
+jdatetime==4.1.1
+cryptography==42.0.5
+aiohttp==3.9.5
+aiofiles==23.2.1

@@ -1,0 +1,417 @@
+[
+  {
+    "id": "tv1",
+    "name": "شبکه یک",
+    "url": "https://cdn.telewebion.com/tv1/live/720p/index.m3u8"
+  },
+  {
+    "id": "tv2",
+    "name": "شبکه دو",
+    "url": "https://cdn.telewebion.com/tv2/live/720p/index.m3u8"
+  },
+  {
+    "id": "tv3",
+    "name": "شبکه سه",
+    "url": "https://cdn.telewebion.com/tv3/live/720p/index.m3u8"
+  },
+  {
+    "id": "tv5",
+    "name": "شبکه پنج (تهران)",
+    "url": "https://cdn.telewebion.com/tehran/live/720p/index.m3u8"
+  },
+  {
+    "id": "news",
+    "name": "شبکه خبر",
+    "url": "https://cdn.telewebion.com/irinn/live/720p/index.m3u8"
+  },
+  {
+    "id": "sport",
+    "name": "شبکه ورزش",
+    "url": "https://cdn.telewebion.com/varzesh/live/720p/index.m3u8"
+  },
+  {
+    "id": "tamasha",
+    "name": "شبکه تماشا",
+    "url": "https://cdn.telewebion.com/hdtest/live/720p/index.m3u8"
+  },
+  {
+    "id": "nasim",
+    "name": "شبکه نسیم",
+    "url": "https://cdn.telewebion.com/nasim/live/720p/index.m3u8"
+  },
+  {
+    "id": "ifilm",
+    "name": "شبکه آی‌ فیلم",
+    "url": "https://cdn.telewebion.com/ifilm/live/720p/index.m3u8"
+  },
+  {
+    "id": "namayesh",
+    "name": "شبکه نمایش",
+    "url": "https://cdn.telewebion.com/namayesh/live/720p/index.m3u8"
+  },
+  {
+    "id": "abadan",
+    "name": "Abadan",
+    "url": "https://ncdn.telewebion.ir/abadan/live/playlist.m3u8"
+  },
+  {
+    "id": "aflak",
+    "name": "Aflak",
+    "url": "https://ncdn.telewebion.ir/aflak/live/playlist.m3u8"
+  },
+  {
+    "id": "aftab",
+    "name": "Aftab",
+    "url": "https://ncdn.telewebion.ir/aftab/live/playlist.m3u8"
+  },
+  {
+    "id": "alborz",
+    "name": "Alborz",
+    "url": "https://ncdn.telewebion.ir/alborz/live/playlist.m3u8"
+  },
+  {
+    "id": "amouzesh",
+    "name": "Amouzesh",
+    "url": "https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8"
+  },
+  {
+    "id": "ara",
+    "name": "Ara",
+    "url": "https://ncdn.telewebion.ir/ara/live/playlist.m3u8"
+  },
+  {
+    "id": "arax_tv",
+    "name": "Arax TV",
+    "url": "https://araxhls.wns.live/hls/stream.m3u8"
+  },
+  {
+    "id": "arko_tv",
+    "name": "Arko TV",
+    "url": "https://arkhls.wns.live/hls/stream.m3u8"
+  },
+  {
+    "id": "arvan_tv",
+    "name": "Arvan TV",
+    "url": "https://arvhls.wns.live/hls/stream.m3u8"
+  },
+  {
+    "id": "asil_tv_576p",
+    "name": "Asil TV (576p)",
+    "url": "https://live.asil.tv/asiltv/index.m3u8"
+  },
+  {
+    "id": "atrak",
+    "name": "Atrak",
+    "url": "https://ncdn.telewebion.ir/atrak/live/playlist.m3u8"
+  },
+  {
+    "id": "atrina_tv",
+    "name": "Atrina TV",
+    "url": "https://atrihls.wns.live/hls/stream.m3u8"
+  },
+  {
+    "id": "azerbaijan_gharbi",
+    "name": "Azerbaijan Gharbi",
+    "url": "https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8"
+  },
+  {
+    "id": "baran",
+    "name": "Baran",
+    "url": "https://ncdn.telewebion.ir/baran/live/playlist.m3u8"
+  },
+  {
+    "id": "bushehr",
+    "name": "Bushehr",
+    "url": "https://ncdn.telewebion.ir/bushehr/live/playlist.m3u8"
+  },
+  {
+    "id": "datis_tv",
+    "name": "Datis TV",
+    "url": "https://dathls.wns.live/hls/stream.m3u8"
+  },
+  {
+    "id": "dena",
+    "name": "Dena",
+    "url": "https://ncdn.telewebion.ir/dena/live/playlist.m3u8"
+  },
+  {
+    "id": "energy",
+    "name": "Energy",
+    "url": "https://ncdn.telewebion.ir/baenergy/live/playlist.m3u8"
+  },
+  {
+    "id": "eshragh",
+    "name": "Eshragh",
+    "url": "https://ncdn.telewebion.ir/eshragh/live/playlist.m3u8"
+  },
+  {
+    "id": "fars",
+    "name": "Fars",
+    "url": "https://ncdn.telewebion.ir/fars/live/playlist.m3u8"
+  },
+  {
+    "id": "golkhane_tv",
+    "name": "Golkhane TV",
+    "url": "https://ncdn.telewebion.ir/golkhane/live/playlist.m3u8"
+  },
+  {
+    "id": "hamedan",
+    "name": "Hamedan",
+    "url": "https://ncdn.telewebion.ir/sina/live/playlist.m3u8"
+  },
+  {
+    "id": "hamoon",
+    "name": "Hamoon",
+    "url": "https://ncdn.telewebion.ir/hamoon/live/playlist.m3u8"
+  },
+  {
+    "id": "ilam",
+    "name": "Ilam",
+    "url": "https://ncdn.telewebion.ir/ilam/live/playlist.m3u8"
+  },
+  {
+    "id": "iran_nama",
+    "name": "Iran Nama",
+    "url": "https://iran613hls.wns.live/hls/stream.m3u8"
+  },
+  {
+    "id": "iran_national_revolution_tv",
+    "name": "Iran National Revolution TV",
+    "url": "https://hls.irannrtv.live/hls/stream.m3u8"
+  },
+  {
+    "id": "iraneman",
+    "name": "Iraneman",
+    "url": "https://ncdn.telewebion.ir/iraneman/live/playlist.m3u8"
+  },
+  {
+    "id": "irib1",
+    "name": "IRIB1",
+    "url": "https://ncdn.telewebion.ir/tv1/live/playlist.m3u8"
+  },
+  {
+    "id": "irib2",
+    "name": "IRIB2",
+    "url": "https://ncdn.telewebion.ir/tv2/live/playlist.m3u8"
+  },
+  {
+    "id": "irib3",
+    "name": "IRIB3",
+    "url": "https://ncdn.telewebion.ir/tv3/live/playlist.m3u8"
+  },
+  {
+    "id": "irib4",
+    "name": "IRIB4",
+    "url": "https://ncdn.telewebion.ir/tv4/live/playlist.m3u8"
+  },
+  {
+    "id": "irib_uhd_2160p",
+    "name": "IRIB UHD (2160p)",
+    "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8"
+  },
+  {
+    "id": "irinn_576p",
+    "name": "IRINN (576p)",
+    "url": "http://185.9.2.18/chid_926/index.m3u8"
+  },
+  {
+    "id": "irinn2_live_farsi_news",
+    "name": "IRINN2 Live Farsi News",
+    "url": "https://ncdn.telewebion.ir/irinn2/live/playlist.m3u8"
+  },
+  {
+    "id": "isfahan",
+    "name": "Isfahan",
+    "url": "https://ncdn.telewebion.ir/esfahan/live/playlist.m3u8"
+  },
+  {
+    "id": "jahanbin",
+    "name": "Jahanbin",
+    "url": "https://ncdn.telewebion.ir/jahanbin/live/playlist.m3u8"
+  },
+  {
+    "id": "kanal_jadid",
+    "name": "Kanal Jadid",
+    "url": "https://kjhls.wns.live/hls/stream.m3u8"
+  },
+  {
+    "id": "karoon_tv",
+    "name": "Karoon TV",
+    "url": "https://ncdn.telewebion.ir/karoon/live/playlist.m3u8"
+  },
+  {
+    "id": "kerman",
+    "name": "Kerman",
+    "url": "https://ncdn.telewebion.ir/kerman/live/playlist.m3u8"
+  },
+  {
+    "id": "khalij_e_fars",
+    "name": "Khalij-e Fars",
+    "url": "https://ncdn.telewebion.ir/khalijefars/live/playlist.m3u8"
+  },
+  {
+    "id": "khavaran",
+    "name": "Khavaran",
+    "url": "https://ncdn.telewebion.ir/khavaran/live/playlist.m3u8"
+  },
+  {
+    "id": "khorasan_razavi",
+    "name": "Khorasan Razavi",
+    "url": "https://ncdn.telewebion.ir/khorasanrazavi/live/playlist.m3u8"
+  },
+  {
+    "id": "khozestan",
+    "name": "Khozestan",
+    "url": "https://ncdn.telewebion.ir/khoozestan/live/playlist.m3u8"
+  },
+  {
+    "id": "kish",
+    "name": "Kish",
+    "url": "https://ncdn.telewebion.ir/kish/live/playlist.m3u8"
+  },
+  {
+    "id": "kordestan",
+    "name": "Kordestan",
+    "url": "https://ncdn.telewebion.ir/kordestan/live/playlist.m3u8"
+  },
+  {
+    "id": "labbayk_tv",
+    "name": "Labbayk TV",
+    "url": "https://ncdn.telewebion.ir/labbayk/live/playlist.m3u8"
+  },
+  {
+    "id": "mahabad",
+    "name": "Mahabad",
+    "url": "https://ncdn.telewebion.ir/mahabad/live/playlist.m3u8"
+  },
+  {
+    "id": "mostanad",
+    "name": "Mostanad",
+    "url": "https://ncdn.telewebion.ir/mostanad/live/playlist.m3u8"
+  },
+  {
+    "id": "nama_tv",
+    "name": "Nama TV",
+    "url": "https://ncdn.telewebion.ir/nama/live/playlist.m3u8"
+  },
+  {
+    "id": "noor",
+    "name": "Noor",
+    "url": "https://ncdn.telewebion.ir/noor/live/playlist.m3u8"
+  },
+  {
+    "id": "palestine",
+    "name": "Palestine",
+    "url": "https://ncdn.telewebion.ir/palestine/live/playlist.m3u8"
+  },
+  {
+    "id": "pars_tv",
+    "name": "Pars TV",
+    "url": "https://parshls.wns.live/hls/stream.m3u8"
+  },
+  {
+    "id": "pbc_tapesh_tv_720p",
+    "name": "PBC Tapesh TV (720p)",
+    "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8"
+  },
+  {
+    "id": "qazvin",
+    "name": "Qazvin",
+    "url": "https://ncdn.telewebion.ir/qazvin/live/playlist.m3u8"
+  },
+  {
+    "id": "razavi_tv",
+    "name": "Razavi TV",
+    "url": "https://ncdn.telewebion.ir/razavi/live/playlist.m3u8"
+  },
+  {
+    "id": "roya_tv",
+    "name": "Roya TV",
+    "url": "https://ncdn.telewebion.ir/iribu/live/playlist.m3u8"
+  },
+  {
+    "id": "sabalan",
+    "name": "Sabalan",
+    "url": "https://ncdn.telewebion.ir/sabalan/live/playlist.m3u8"
+  },
+  {
+    "id": "sabz",
+    "name": "Sabz",
+    "url": "https://ncdn.telewebion.ir/sabz/live/playlist.m3u8"
+  },
+  {
+    "id": "sahand",
+    "name": "Sahand",
+    "url": "https://ncdn.telewebion.ir/sahand/live/playlist.m3u8"
+  },
+  {
+    "id": "salamat",
+    "name": "Salamat",
+    "url": "https://ncdn.telewebion.ir/salamat/live/playlist.m3u8"
+  },
+  {
+    "id": "sarbedaran",
+    "name": "Sarbedaran",
+    "url": "https://ncdn.telewebion.ir/sarbedaran/live/playlist.m3u8"
+  },
+  {
+    "id": "semnan",
+    "name": "Semnan",
+    "url": "https://ncdn.telewebion.ir/semnan/live/playlist.m3u8"
+  },
+  {
+    "id": "sepehr",
+    "name": "Sepehr",
+    "url": "https://ncdn.telewebion.ir/sepehr/live/playlist.m3u8"
+  },
+  {
+    "id": "simaye_azadi_1080p",
+    "name": "Simaye Azadi (1080p)",
+    "url": "https://simaytv.akamaized.net/hls/live/2043550/simayhls/index.m3u8"
+  },
+  {
+    "id": "tabarestan",
+    "name": "Tabarestan",
+    "url": "https://ncdn.telewebion.ir/tabarestan/live/playlist.m3u8"
+  },
+  {
+    "id": "tbn_nejat_tv",
+    "name": "TBN Nejat TV",
+    "url": "https://hls.nejat.live/hls/stream.m3u8"
+  },
+  {
+    "id": "tehran",
+    "name": "Tehran",
+    "url": "https://ncdn.telewebion.ir/tehran/live/playlist.m3u8"
+  },
+  {
+    "id": "tekyemadahi",
+    "name": "Tekyemadahi",
+    "url": "https://ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8"
+  },
+  {
+    "id": "tm_tv_720p",
+    "name": "TM TV (720p)",
+    "url": "https://hls.tmtv.live/hls/stream.m3u8"
+  },
+  {
+    "id": "tva_nava",
+    "name": "TVA Nava",
+    "url": "https://ncdn.telewebion.ir/nava/live/playlist.m3u8"
+  },
+  {
+    "id": "velayat_tv",
+    "name": "Velayat TV",
+    "url": "https://ncdn.telewebion.ir/velayat/live/playlist.m3u8"
+  },
+  {
+    "id": "yazd",
+    "name": "Yazd",
+    "url": "https://ncdn.telewebion.ir/taban/live/playlist.m3u8"
+  },
+  {
+    "id": "zagros",
+    "name": "Zagros",
+    "url": "https://ncdn.telewebion.ir/zagros/live/playlist.m3u8"
+  }
+]

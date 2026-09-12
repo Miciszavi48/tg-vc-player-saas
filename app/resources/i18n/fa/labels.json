@@ -1,0 +1,81 @@
+{
+  "labels": {
+    "chat_type": {
+      "group": "گروه",
+      "channel": "کانال"
+    },
+    "helper_status": {
+      "active": "فعال",
+      "disabled": "غیرفعال",
+      "quarantined": "قرنطینه"
+    },
+    "broadcast_mode": {
+      "send": "ارسال مستقیم",
+      "forward": "نقل‌قول (فوروارد)"
+    },
+    "broadcast_scope": {
+      "users": "کاربران",
+      "groups": "گروه‌ها",
+      "channels": "کانال‌ها"
+    },
+    "broadcast_filter": {
+      "all": "همه",
+      "7d": "۷ روز اخیر",
+      "30d": "۳۰ روز اخیر"
+    },
+    "broadcast_status": {
+      "pending": "در انتظار",
+      "running": "در حال اجرا",
+      "done": "انجام شد",
+      "canceled": "لغو شد",
+      "failed": "ناموفق"
+    },
+    "install_policy_mode": {
+      "open": "باز",
+      "paid": "پولی",
+      "free": "رایگان",
+      "hybrid": "ترکیبی"
+    },
+    "installer_role": {
+      "developer": "برنامه‌نویس",
+      "owner": "سازنده",
+      "sudo": "سودو",
+      "user": "کاربر"
+    },
+    "invoice_status": {
+      "pending": "در انتظار",
+      "paid": "پرداخت‌شده",
+      "cancelled": "لغو شده",
+      "canceled": "لغو شده"
+    },
+    "install_action": {
+      "install": "نصب",
+      "uninstall": "حذف نصب"
+    },
+    "entity_type": {
+      "user": "کاربر",
+      "group": "گروه",
+      "channel": "کانال"
+    },
+    "install_status": {
+      "active": "فعال",
+      "inactive": "غیرفعال",
+      "left": "خارج‌شده"
+    },
+    "analytics_type": {
+      "peak_hours": "ساعات اوج",
+      "errors": "خطاها"
+    },
+    "health_service": {
+      "telegram": "تلگرام",
+      "database": "پایگاه‌داده",
+      "redis": "ردیس"
+    },
+    "error_code": {
+      "unexpected_error": "خطای غیرمنتظره"
+    },
+    "timezone": {
+      "utc": "هماهنگ جهانی"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "force_join_mgmt": {
+    "added": "✅ کانال {channel} به لیست جوین اجباری افزوده شد.",
+    "removed": "❌ کانال {channel} از جوین اجباری حذف شد.",
+    "list_title": "<b>📋 لیست جوین اجباری</b>",
+    "list_empty": "⚠️ هیچ کانالی ثبت نشده است.",
+    "not_joined": "⛔ برای استفاده از ربات، لطفاً ابتدا در کانال‌های زیر عضو شوید:",
+    "join_button": "عضویت در {channel}",
+    "check_button": "✅ بررسی عضویت",
+    "menu_title": "<b>⚙️ مدیریت عضویت اجباری</b>",
+    "menu_desc": "کانال‌هایی را تنظیم کنید که کاربران برای استفاده از ربات باید در آن‌ها عضو شوند.",
+    "add_btn": "➕ افزودن کانال",
+    "list_btn": "📋 لیست کانال‌ها",
+    "remove_item_btn": "🗑 حذف {channel_id}",
+    "list_item": "✧ {badge} {title}\n▪️ شناسه: <code>{channel_id}</code>\n▪️ یوزرنیم: {username}\n▪️ وضعیت: {status}",
+    "status_ok": "سالم",
+    "status_pending": "در حال بررسی",
+    "status_bot_not_admin": "ربات ادمین نیست",
+    "status_inaccessible": "غیرقابل دسترس",
+    "status_unknown": "نامشخص",
+    "add_prompt": "▪️ یوزرنیم یا شناسه کانال را ارسال کنید:",
+    "invalid_identifier": "⚠️ شناسه نامعتبر است.",
+    "add_inaccessible": "⛔ ربات به این کانال دسترسی ندارد.",
+    "add_bot_not_admin": "⚠️ ربات ادمین کانال اضافه شده نیست.",
+    "remove_not_found": "⚠️ کانال پیدا نشد.",
+    "remove_confirm_prompt": "❓ کانال {channel_id} از لیست حذف شود؟",
+    "not_allowed": "⛔ شما دسترسی ندارید."
+  },
+  "fm": {
+    "join_required": "⛔ برای استفاده از ربات، لطفاً ابتدا در کانال‌های زیر عضو شوید:",
+    "join_button": "عضویت در {channel}",
+    "check_button": "✅ بررسی عضویت",
+    "check_passed": "✅ عضویت شما تایید شد.",
+    "check_failed": "⚠️ هنوز در همه کانال‌های اجباری عضو نیستید.",
+    "rate_limited": "لطفاً چند لحظه بعد دوباره بررسی کنید."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "call_stats_panel": {
+    "invalid_callback": "⚠️ عملیات نامعتبر است.",
+    "feature_disabled": "⚠️ قابلیت آمار کال غیرفعال است.",
+    "menu_title": "<b>📊 آمار کال</b>\n\nبازه گزارش را انتخاب کنید.",
+    "btn_group_all": "تمام تماس‌های گروه",
+    "btn_group_week": "گروه در این هفته",
+    "btn_group_today": "گروه امروز",
+    "btn_vip_all": "تمام تماس‌های ویژگان",
+    "btn_vip_week": "ویژگان در این هفته",
+    "btn_vip_today": "ویژگان امروز",
+    "btn_admin_all": "تمام تماس‌های مدیران",
+    "btn_admin_week": "مدیران در این هفته",
+    "btn_admin_today": "مدیران امروز",
+    "empty": "هیچ داده‌ای برای این بازه وجود ندارد.",
+    "period_line": "🗓 بازه گزارش: {period}",
+    "period_all": "تمام تماس‌ها",
+    "period_week": "این هفته",
+    "period_today": "امروز",
+    "title_group": "گزارش کل گروه",
+    "title_vip": "گزارش کاربران ویژه",
+    "title_admin": "گزارش مدیران",
+    "from_date": "📅 از تاریخ: {date}",
+    "from_time": "⏰ ساعت: {time}",
+    "total_duration": "⏱ مجموع زمان: {duration}",
+    "user_line": "{medal} {user}: {duration} ({percent}%)",
+    "separator": "┈┅┅━━━━━━━━━━━━┅┅┈",
+    "truncated_note": "⚠️ برخی از نتایج پنهان شدند.",
+    "capped_note": "⚠️ فقط نفرات برتر نمایش داده شدند."
+  }
+}

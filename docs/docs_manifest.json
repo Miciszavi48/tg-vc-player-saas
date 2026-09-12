@@ -1,0 +1,356 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-07-19",
+  "project": "Telegram Voice Chat Music & Video Player Bot (SaaS)",
+  "alembic_head": "0033_instance_database_ownership",
+  "i18n_architecture": "split-only",
+  "i18n_fragments_path": "app/resources/i18n/",
+  "legacy_monolith_removed": true,
+  "entry_point": "docs/index.md",
+  "sections": [
+    {
+      "name": "index",
+      "path": "docs/index.md",
+      "description": "Main documentation entry point. Links to all sections.",
+      "type": "index"
+    },
+    {
+      "name": "readme",
+      "path": "docs/README.md",
+      "description": "Documentation navigation table (quick navigation format).",
+      "type": "index"
+    },
+    {
+      "name": "architecture",
+      "path": "docs/architecture/",
+      "index": "docs/architecture/index.md",
+      "files": [
+        {
+          "path": "docs/architecture/system_architecture.md",
+          "description": "Full system topology, layers, media pipeline, Redis, DB, scheduler, and deployment, aligned with the split-only i18n architecture.",
+          "status": "current",
+          "warnings": []
+        },
+        {
+          "path": "docs/architecture/i18n_architecture.md",
+          "description": "Split-only i18n loader: fragment layout, manifest.json, TextService API, toggle_label, validation scripts.",
+          "status": "current",
+          "created": "2026-06-11"
+        },
+        {
+          "path": "docs/architecture/handler_routing.md",
+          "description": "Handler registration order, priority groups (GUARD/-10, PRIORITY_COMMAND/-15, FSM/-85/-90, normal/0, FALLBACK/1000), callback routing model, FSM escape.",
+          "status": "current",
+          "created": "2026-06-11"
+        },
+        {
+          "path": "docs/architecture/playback_architecture.md",
+          "description": "Voice stack (Kurigram + PyTgCalls), playback pipeline end-to-end, audio vs video routing, queue, now-playing, free-mode restrictions.",
+          "status": "current",
+          "created": "2026-06-11"
+        },
+        {
+          "path": "docs/architecture/multi_tenancy.md",
+          "description": "Role hierarchy (developer → owner → sudo → group admin → VIP), install lineage, owner scope.",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "name": "features",
+      "path": "docs/features/",
+      "index": "docs/features/index.md",
+      "files": [
+        {
+          "path": "docs/features/commands.md",
+          "description": "All text and slash commands with FA/EN aliases, normalization, and prerequisites.",
+          "status": "current"
+        },
+        {
+          "path": "docs/features/playback.md",
+          "description": "Playback commands, audio vs video, queue, repeat (session-only), errors.",
+          "status": "current"
+        },
+        {
+          "path": "docs/features/group_settings.md",
+          "description": "Group settings panel, visible toggles table, navigation (nav:back/wz:home), permissions.",
+          "status": "current"
+        },
+        {
+          "path": "docs/features/call_security.md",
+          "description": "Call Security (امنیت کال): per-chat voice-call security, mute enforcement, membership age, DB tables.",
+          "status": "current"
+        },
+        {
+          "path": "docs/features/helper_bot.md",
+          "description": "Helper accounts: OTP wizard, pool, atomic reservation, join logic, session encryption.",
+          "status": "current",
+          "created": "2026-06-11"
+        },
+        {
+          "path": "docs/features/helper_accounts.md",
+          "description": "Legacy helper accounts doc. Content moved to helper_bot.md. Kept for backward compatibility.",
+          "status": "current",
+          "see_also": "docs/features/helper_bot.md"
+        },
+        {
+          "path": "docs/features/i18n.md",
+          "description": "i18n split-only architecture (feature-level quick reference). Authoritative for current behavior.",
+          "status": "current"
+        },
+        {
+          "path": "docs/features/admin_panels.md",
+          "description": "Developer, owner, sudo, analytics, help center, broadcast panels. Toggle conventions, keyboard layout rules.",
+          "status": "current",
+          "created": "2026-06-11"
+        },
+        {
+          "path": "docs/features/credit_and_charge.md",
+          "description": "Credit model, آپدیت شارژ command (FA/EN/Persian digits), daily deduct, billing bypass.",
+          "status": "current",
+          "created": "2026-06-11"
+        },
+        {
+          "path": "docs/features/credit_and_daily_deduct.md",
+          "description": "Older credit doc. Superseded by credit_and_charge.md but kept as redirect.",
+          "status": "current"
+        },
+        {
+          "path": "docs/features/broadcast.md",
+          "description": "Advanced broadcast FSM wizard.",
+          "status": "current"
+        },
+        {
+          "path": "docs/features/force_join.md",
+          "description": "Force-join channel management.",
+          "status": "current"
+        },
+        {
+          "path": "docs/features/now_playing_cover_security.md",
+          "description": "Now-playing renderer, cover art (Telegram-native only), metadata flags.",
+          "status": "current"
+        },
+        {
+          "path": "docs/features/text_links_and_start.md",
+          "description": "Developer/owner text link panel, /start UX.",
+          "status": "current"
+        },
+        {
+          "path": "docs/features/owner_sudo_permissions.md",
+          "description": "Role hierarchy, sudo permission matrix, owner scope service.",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "name": "operations",
+      "path": "docs/operations/",
+      "index": "docs/operations/index.md",
+      "files": [
+        {
+          "path": "docs/operations/deployment.md",
+          "description": "Consolidated native Ubuntu/systemd deployment guide; Docker is limited to local development and tests.",
+          "status": "current",
+          "created": "2026-06-11"
+        },
+        {
+          "path": "docs/operations/validation.md",
+          "description": "All safe offline validation commands with expected outputs. What NOT to run.",
+          "status": "current",
+          "created": "2026-06-11"
+        },
+        {
+          "path": "docs/operations/troubleshooting.md",
+          "description": "Common issues: silent callbacks, missing i18n keys, command not matching, playback not starting, webhook conflicts.",
+          "status": "current",
+          "created": "2026-06-11"
+        },
+        {
+          "path": "docs/operations/schema_drift.md",
+          "description": "DB schema drift checker usage and interpretation.",
+          "status": "current"
+        },
+        {
+          "path": "docs/operations/logging_safety.md",
+          "description": "Logging pipeline: Loguru, stdlib bridge, safety guards.",
+          "status": "current"
+        },
+        {
+          "path": "docs/operations/credit_reconciliation.md",
+          "description": "Credit history reconciliation runbook.",
+          "status": "current"
+        },
+        {
+          "path": "docs/operations/daily_deduct_batching.md",
+          "description": "Daily deduct performance and batching plan.",
+          "status": "current"
+        },
+        {
+          "path": "docs/operations/daily_deduct_idempotency.md",
+          "description": "Daily deduct idempotency gate design.",
+          "status": "current"
+        },
+        {
+          "path": "docs/operations/helper_selection_concurrency.md",
+          "description": "Atomic helper reservation: FOR UPDATE SKIP LOCKED, Phase 2D-5B.",
+          "status": "current"
+        },
+        {
+          "path": "docs/operations/ops_concurrency.md",
+          "description": "General concurrency notes.",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "name": "reports_current",
+      "path": "docs/reports/current/",
+      "index": "docs/reports/index.md",
+      "files": [
+        {
+          "path": "docs/reports/current/handler_command_callback_playback_fix_report.md",
+          "date": "2026-06-11",
+          "description": "Handler priority, text normalization, unknown-callback fallback, FSM escape, download_enabled gate fix.",
+          "status": "current"
+        },
+        {
+          "path": "docs/reports/current/keyboard_ui_cleanup_report.md",
+          "date": "2026-06-11",
+          "description": "Keyboard layout pass: paired rows, toggle_label ✅/☑️, shortened labels.",
+          "status": "current"
+        },
+        {
+          "path": "docs/reports/current/i18n_split_only_migration_report.md",
+          "date": "2026-06-11",
+          "description": "Removal of legacy strings/ monolith; split-only loader details.",
+          "status": "current"
+        },
+        {
+          "path": "docs/reports/current/i18n_usage_coverage_report.md",
+          "date": "2026-06-11",
+          "description": "AST audit: 856 literal keys, 19 dynamic families, 0 missing.",
+          "status": "current"
+        },
+        {
+          "path": "docs/reports/current/addendum_revision_cleanup_report.md",
+          "date": "2026-06-11",
+          "description": "Toggle label cleanup, Call Security icon standardization.",
+          "status": "current"
+        },
+        {
+          "path": "docs/reports/current/addendum_revision_implementation_report.md",
+          "date": "2026-06-11",
+          "description": "Hybrid i18n implementation (historical; superseded by split-only migration).",
+          "status": "historical_note"
+        },
+        {
+          "path": "docs/reports/current/call_security_reaudit_and_fix.md",
+          "date": "2026-06-10",
+          "description": "Call Security panel re-audit and fixes.",
+          "status": "current"
+        },
+        {
+          "path": "docs/reports/current/channel_security_final_removal.md",
+          "date": "2026-06-10",
+          "description": "Channel Security UI fully removed; callbacks redirect to Call Security.",
+          "status": "current"
+        },
+        {
+          "path": "docs/reports/current/documentation_refresh_report.md",
+          "date": "2026-06-10",
+          "description": "Previous docs reorganization pass (superseded by 2026-06-11 pass).",
+          "status": "historical_note"
+        },
+        {
+          "path": "docs/reports/current/panel_edit_first_ux_report.md",
+          "date": "2026-06-10",
+          "description": "Panel edit-first UX: edit stored message, Redis anchor panelmsg:*.",
+          "status": "current"
+        },
+        {
+          "path": "docs/reports/current/reply_playback_command_fix_report.md",
+          "date": "2026-06-10",
+          "description": "/play slash registration, reply+پخش routing fix.",
+          "status": "current"
+        },
+        {
+          "path": "docs/reports/current/phase2d_closeout.md",
+          "date": "2026-06-05",
+          "description": "Phase 2D: helper reservation, daily deduct idempotency close-out.",
+          "status": "current"
+        },
+        {
+          "path": "docs/reports/current/spec_compliance_audit.md",
+          "date": "2026-06-10",
+          "description": "Spec compliance review.",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "name": "reports_archive",
+      "path": "docs/reports/archive/",
+      "files": [
+        {
+          "path": "docs/reports/archive/markdown_cleanup_report.md",
+          "date": "2026-06-10",
+          "description": "Root-level report cleanup (historical).",
+          "status": "archive"
+        },
+        {
+          "path": "docs/reports/archive/phase_b6_repeat_vote_skip_decision.md",
+          "date": "2026-06-05",
+          "description": "Phase B6 design decision: repeat vs vote-skip (historical).",
+          "status": "archive"
+        }
+      ]
+    },
+    {
+      "name": "testing",
+      "path": "docs/testing.md",
+      "description": "How to run the default SQLite/fakeredis suite and opt-in live PostgreSQL/Redis checks safely.",
+      "status": "current"
+    },
+    {
+      "name": "specs",
+      "path": "docs/specs/",
+      "description": "Client product requirements and UX flows. May predate current implementation.",
+      "files": [
+        {"path": "docs/specs/music_bot_complete_docs_EN_FINAL.md", "description": "Full EN client spec"},
+        {"path": "docs/specs/music_bot_frontend_UI_FA_BI.md", "description": "FA/bilingual UI spec"},
+        {"path": "docs/specs/UX_FLOWS_EN.md", "description": "UX flows EN"},
+        {"path": "docs/specs/spec_analytics_reporting.md", "description": "Analytics spec"},
+        {"path": "docs/specs/spec_forced_membership_broadcast_security.md", "description": "Force membership/broadcast spec"},
+        {"path": "docs/specs/spec_multi_helper_cli.md", "description": "Multi-helper CLI spec"}
+      ]
+    }
+  ],
+  "validation_commands": [
+    {"cmd": "python scripts/split_i18n_resources.py --check", "purpose": "i18n structure/parity validation (read-only)"},
+    {"cmd": "python scripts/check_i18n_usage.py", "purpose": "i18n usage coverage audit (read-only)"},
+    {"cmd": "python scripts/db_schema_drift_check.py", "purpose": "DB schema drift check (SELECT-only)"},
+    {"cmd": "python scripts/audit_handler_map.py", "purpose": "Handler map audit (read-only)"},
+    {"cmd": "python scripts/check_voice_stack.py", "purpose": "Voice stack diagnostic (read-only)"},
+    {"cmd": "python scripts/check_logging_pipeline.py", "purpose": "Logging pipeline check (read-only)"},
+    {"cmd": "ruff check app/", "purpose": "Lint application code"},
+    {"cmd": "$env:TEST_MODE='1'; pytest tests/ -v", "purpose": "Default Windows test suite (SQLite and fakeredis; no live services required)"}
+  ],
+  "current_truths": {
+    "i18n": "split-only; app/resources/i18n/ only; no strings/ fallback",
+    "alembic_head": "0033_instance_database_ownership",
+    "toggle_style": "toggle_label() with status_indicator.active=✅ / inactive=☑️",
+    "call_security_vs_playback_lock": "grp:callsec (امنیت کال, call_security_settings) ≠ grp:set:security_call (قفل پخش, security_call_enabled)",
+    "channel_security": "removed; dev/own callbacks redirect to Call Security",
+    "repeat": "session-only in-memory; no repeat_enabled DB column",
+    "download_enabled": "blocks download command only; does NOT block voice-chat playback",
+    "handler_counts": {
+      "static_message": 87,
+      "static_callback": 512,
+      "runtime_total": 610,
+      "runtime_callback": 521,
+      "runtime_message": 87,
+      "runtime_raw": 1,
+      "runtime_chat_member": 1
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+    "meta": {
+        "language": "en",
+        "fallback": "fa",
+        "version": "1.0.0",
+        "direction": "ltr"
+    },
+    "common": {
+        "buttons": {
+            "back": "Back",
+            "close": "Close",
+            "cancel": "Cancel",
+            "cancel_inline": "❌ Cancel",
+            "home": "🏠 Home",
+            "confirm": "Confirm",
+            "next": "Next",
+            "prev": "Prev",
+            "stop": "Stop",
+            "pause": "Pause",
+            "resume": "Resume"
+        },
+        "errors": {
+            "no_access": "◂ You do not have permission to access this section.",
+            "not_installed": "Player is not installed in this chat.",
+            "invalid_number": "◂ Invalid input. Please enter a valid number.",
+            "invalid_positive_number": "◂ Invalid input. Please enter a positive whole number.",
+            "invalid_non_negative_number": "◂ Invalid input. Please enter zero or a positive whole number.",
+            "try_later": "Please try again in a few seconds.",
+            "flood_wait": "Telegram rate limit. Please try later.",
+            "helper_unavailable": "Helper is unavailable. Please try later.",
+            "not_configured": "◂ This option is not configured yet.",
+            "invalid_callback": "◂ This button is invalid or expired. Please open the menu again.",
+            "unknown_callback": "◂ This button is not recognized. Please open the menu again.",
+            "blacklisted": "◂ You cannot use the bot in this chat.",
+            "navigation_failed": "◂ Could not refresh the menu. Please open settings or /settings again."
+        },
+        "labels": {
+            "on": "On",
+            "off": "Off",
+            "enabled": "Enabled",
+            "disabled": "Disabled",
+            "unknown": "Unknown",
+            "na": "N/A",
+            "audio_title": "Audio",
+            "voice_title": "Voice"
+        },
+        "confirm_prompt": "◆ Are you sure you want to proceed?",
+        "confirmed": "◆ Operation completed successfully ✅",
+        "cancelled": "◆ Operation cancelled ❌"
+    },
+    "status_indicator": {
+        "active": "✅",
+        "inactive": "☑️"
+    },
+    "list_fmt": {
+        "group_item": "• Group: {title}\nID: <code>{chat_id}</code>\nStatus: {status}\nCredit: {days} days\nInstalled by: {installed_by}\nLink: {link}",
+        "channel_item": "• Channel: {title}\nID: <code>{chat_id}</code>\nStatus: {status}\nCredit: {days} days\nInstalled by: {installed_by}\nLink: {link}",
+        "chat_item": "• {chat_id} ({chat_type})",
+        "no_credit_item": "• {chat_id} ({chat_type}) | Status: {status} | Credit: {days} days",
+        "user_item": "• {user_id} ({username})",
+        "role_user_item": "• {name} | {user_id} | {username}",
+        "page_indicator": "Page {page} of {total}",
+        "admin_item_m": "• [M] {user_id} ({username})",
+        "admin_item_v": "• [V] {user_id} ({username})",
+        "word_item": "• {word}",
+        "invoice_item": "• #{id} | {chat} | {days}d | {status}",
+        "install_log_item": "• {title} [{action}]",
+        "setting_entry": "• {key}: {value}"
+    }
+}

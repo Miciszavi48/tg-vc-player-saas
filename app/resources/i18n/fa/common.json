@@ -1,0 +1,70 @@
+{
+    "meta": {
+        "language": "fa",
+        "fallback": "fa",
+        "version": "1.0.0",
+        "direction": "rtl"
+    },
+    "common": {
+        "buttons": {
+            "back": "⬅️ بازگشت",
+            "close": "✖️ بستن",
+            "cancel": "لغو",
+            "cancel_inline": "❌ انصراف",
+            "home": "🏠 منوی اصلی",
+            "confirm": "تأیید",
+            "next": "بعدی",
+            "prev": "قبلی",
+            "stop": "⛔ توقف",
+            "pause": "⏸ مکث",
+            "resume": "▶️ ازسرگیری"
+        },
+        "errors": {
+            "no_access": "◂ کاربر گرامی، شما دسترسی لازم برای این بخش را ندارید.",
+            "not_installed": "◂ پلیر در این چت نصب نیست. لطفاً ابتدا ربات را نصب کنید.",
+            "invalid_number": "◂ مقدار واردشده معتبر نیست. لطفاً یک عدد صحیح وارد کنید.",
+            "invalid_positive_number": "◂ مقدار واردشده معتبر نیست. لطفاً یک عدد صحیح مثبت وارد کنید.",
+            "invalid_non_negative_number": "◂ مقدار واردشده معتبر نیست. لطفاً عدد صفر یا یک عدد صحیح مثبت وارد کنید.",
+            "try_later": "◂ لطفاً چند ثانیه صبر کنید و مجدداً تلاش کنید.",
+            "flood_wait": "◂ محدودیت تلگرام فعال شده است. لطفاً کمی بعد تلاش کنید.",
+            "helper_unavailable": "◂ هلپر در حال حاضر در دسترس نیست. لطفاً چند دقیقه بعد تلاش کنید.",
+            "not_configured": "◂ این گزینه هنوز پیکربندی نشده است.",
+            "invalid_callback": "◂ این دکمه نامعتبر یا منقضی شده است. لطفاً منو را دوباره باز کنید.",
+            "unknown_callback": "◂ این دکمه شناخته نشده است. لطفاً منو را دوباره باز کنید.",
+            "blacklisted": "◂ شما اجازه استفاده از ربات در این چت را ندارید.",
+            "navigation_failed": "◂ به‌روزرسانی منو انجام نشد. لطفاً دوباره از تنظیمات یا /settings شروع کنید."
+        },
+        "labels": {
+            "on": "فعال",
+            "off": "غیرفعال",
+            "enabled": "فعال",
+            "disabled": "غیرفعال",
+            "unknown": "نامشخص",
+            "na": "—",
+            "audio_title": "صوتی",
+            "voice_title": "ویس"
+        },
+        "confirm_prompt": "◆ آیا از انجام این عملیات اطمینان دارید؟",
+        "confirmed": "◆ عملیات با موفقیت انجام شد ✅",
+        "cancelled": "◆ عملیات لغو شد ❌"
+    },
+    "status_indicator": {
+        "active": "✅",
+        "inactive": "☑️"
+    },
+    "list_fmt": {
+        "group_item": "◂ گروه: {title}\nشناسه: <code>{chat_id}</code>\nوضعیت: {status}\nاعتبار: {days} روز\nنصب‌کننده: {installed_by}\nلینک: {link}",
+        "channel_item": "◂ کانال: {title}\nشناسه: <code>{chat_id}</code>\nوضعیت: {status}\nاعتبار: {days} روز\nنصب‌کننده: {installed_by}\nلینک: {link}",
+        "chat_item": "◂ {chat_id} ({chat_type})",
+        "no_credit_item": "◂ {chat_id} ({chat_type}) | وضعیت: {status} | اعتبار: {days} روز",
+        "user_item": "◂ {user_id} ({username})",
+        "role_user_item": "◂ {name} | {user_id} | {username}",
+        "page_indicator": "صفحه {page} از {total}",
+        "admin_item_m": "• [مدیر] {user_id} ({username})",
+        "admin_item_v": "• [ویس] {user_id} ({username})",
+        "word_item": "• {word}",
+        "invoice_item": "• #{id} | {chat} | {days} روز | {status}",
+        "install_log_item": "◂ {title} [{action}]",
+        "setting_entry": "• {key}: {value}"
+    }
+}

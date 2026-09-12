@@ -1,0 +1,9 @@
+{
+  "name": "analyzeProjectStack",
+  "description": "Analiza el package.json y recomienda skills según el stack detectado.",
+  "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {}
+  }
+}

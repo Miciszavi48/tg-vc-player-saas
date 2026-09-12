@@ -1,0 +1,81 @@
+{
+  "labels": {
+    "chat_type": {
+      "group": "group",
+      "channel": "channel"
+    },
+    "helper_status": {
+      "active": "active",
+      "disabled": "disabled",
+      "quarantined": "quarantined"
+    },
+    "broadcast_mode": {
+      "send": "send",
+      "forward": "forward"
+    },
+    "broadcast_scope": {
+      "users": "users",
+      "groups": "groups",
+      "channels": "channels"
+    },
+    "broadcast_filter": {
+      "all": "all",
+      "7d": "7d",
+      "30d": "30d"
+    },
+    "broadcast_status": {
+      "pending": "pending",
+      "running": "running",
+      "done": "done",
+      "canceled": "canceled",
+      "failed": "failed"
+    },
+    "install_policy_mode": {
+      "open": "open",
+      "paid": "paid",
+      "free": "free",
+      "hybrid": "hybrid"
+    },
+    "installer_role": {
+      "developer": "developer",
+      "owner": "owner",
+      "sudo": "sudo",
+      "user": "user"
+    },
+    "invoice_status": {
+      "pending": "pending",
+      "paid": "paid",
+      "cancelled": "cancelled",
+      "canceled": "canceled"
+    },
+    "install_action": {
+      "install": "install",
+      "uninstall": "uninstall"
+    },
+    "entity_type": {
+      "user": "user",
+      "group": "group",
+      "channel": "channel"
+    },
+    "install_status": {
+      "active": "active",
+      "inactive": "inactive",
+      "left": "left"
+    },
+    "analytics_type": {
+      "peak_hours": "Peak Hours",
+      "errors": "Errors"
+    },
+    "health_service": {
+      "telegram": "telegram",
+      "database": "database",
+      "redis": "redis"
+    },
+    "error_code": {
+      "unexpected_error": "unexpected_error"
+    },
+    "timezone": {
+      "utc": "UTC"
+    }
+  }
+}

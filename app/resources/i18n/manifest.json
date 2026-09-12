@@ -1,0 +1,226 @@
+{
+  "version": "1.0",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "deprecated_keys": [],
+  "fragments": [
+    {
+      "path": "common.json",
+      "namespaces": [
+        "meta",
+        "common",
+        "status_indicator",
+        "list_fmt"
+      ]
+    },
+    {
+      "path": "labels.json",
+      "namespaces": [
+        "labels"
+      ]
+    },
+    {
+      "path": "ask.json",
+      "namespaces": [
+        "ask"
+      ]
+    },
+    {
+      "path": "panels/developer.json",
+      "namespaces": [
+        "panels.developer"
+      ]
+    },
+    {
+      "path": "panels/owner.json",
+      "namespaces": [
+        "panels.owner"
+      ]
+    },
+    {
+      "path": "panels/sudo.json",
+      "namespaces": [
+        "panels.sudo"
+      ]
+    },
+    {
+      "path": "panels/group.json",
+      "namespaces": [
+        "panels.group",
+        "user_panel"
+      ]
+    },
+    {
+      "path": "features/start.json",
+      "namespaces": [
+        "start"
+      ]
+    },
+    {
+      "path": "features/playback.json",
+      "namespaces": [
+        "playback",
+        "now_playing"
+      ]
+    },
+    {
+      "path": "features/playback_commands.json",
+      "namespaces": [
+        "playback_cmd",
+        "group_text_call",
+        "playlist_cmd",
+        "tv_radio",
+        "search",
+        "download_cmd",
+        "named_playlist",
+        "hot_seat"
+      ]
+    },
+    {
+      "path": "features/call_security.json",
+      "namespaces": [
+        "call_security"
+      ]
+    },
+    {
+      "path": "features/helper.json",
+      "namespaces": [
+        "helper"
+      ]
+    },
+    {
+      "path": "features/broadcast.json",
+      "namespaces": [
+        "broadcast",
+        "promotion"
+      ]
+    },
+    {
+      "path": "features/force_join.json",
+      "namespaces": [
+        "force_join_mgmt",
+        "fm"
+      ]
+    },
+    {
+      "path": "features/text_links.json",
+      "namespaces": [
+        "texts_links",
+        "log_channel",
+        "free_mode"
+      ]
+    },
+    {
+      "path": "features/install.json",
+      "namespaces": [
+        "install",
+        "credit",
+        "wallet"
+      ]
+    },
+    {
+      "path": "features/monthly_invoice.json",
+      "namespaces": [
+        "monthly_invoice"
+      ]
+    },
+    {
+      "path": "features/group_mgmt.json",
+      "namespaces": [
+        "sudo_mgmt",
+        "sudo_permissions",
+        "owner_mgmt",
+        "filter_mgmt",
+        "blacklist_mgmt",
+        "global_ban",
+        "admin_titles",
+        "sudo_enforce"
+      ]
+    },
+    {
+      "path": "features/favorites.json",
+      "namespaces": [
+        "favorites"
+      ]
+    },
+    {
+      "path": "system/admin.json",
+      "namespaces": [
+        "admin",
+        "gc"
+      ]
+    },
+    {
+      "path": "system/notifications.json",
+      "namespaces": [
+        "notifications"
+      ]
+    },
+    {
+      "path": "system/status.json",
+      "namespaces": [
+        "status",
+        "status_summary"
+      ]
+    },
+    {
+      "path": "system/media_health.json",
+      "namespaces": [
+        "media_health"
+      ]
+    },
+    {
+      "path": "system/bot_update.json",
+      "namespaces": [
+        "bot_update",
+        "recovery"
+      ]
+    },
+    {
+      "path": "system/reports.json",
+      "namespaces": [
+        "reports"
+      ]
+    },
+    {
+      "path": "system/errors.json",
+      "namespaces": [
+        "errors"
+      ]
+    },
+    {
+      "path": "system/help.json",
+      "namespaces": [
+        "help",
+        "help_content"
+      ]
+    },
+    {
+      "path": "features/call_stats_panel.json",
+      "namespaces": [
+        "call_stats_panel"
+      ]
+    },
+    {
+      "path": "features/public_cmd.json",
+      "namespaces": [
+        "public_cmd"
+      ]
+    },
+    {
+      "path": "features/youtube_sessions.json",
+      "namespaces": [
+        "youtube_sessions"
+      ]
+    },
+    {
+      "path": "features/fast_creat_tokens.json",
+      "namespaces": [
+        "fast_creat_tokens",
+        "fast_creat"
+      ]
+    }
+  ]
+}

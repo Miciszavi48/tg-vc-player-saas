@@ -1,0 +1,83 @@
+{
+  "playback": {
+    "choose_source": "Please choose a playback option:",
+    "choose_tv": "Please choose a TV channel:",
+    "now_playing": "<b>🎧 Now Playing</b>\n\n▪️ Requested by: {user}\n▪️ Time: <code>{datetime}</code>",
+    "track_card": {
+      "title": "🎵 {title}",
+      "artist": "▪️ Artist: {artist}",
+      "duration": "▪️ Duration: {duration}",
+      "requested_by": "▪️ Requested by: {user}"
+    },
+    "types": {
+      "audio": "Audio",
+      "video": "Video",
+      "tv": "TV",
+      "satellite": "Satellite",
+      "radio": "Radio",
+      "download": "Download Media"
+    },
+    "controls": {
+      "vol_up": "🔊 Vol+",
+      "vol_down": "🔉 Vol-",
+      "speed_up": "⏩ Speed+",
+      "speed_down": "⏪ Speed-",
+      "next": "⏭ Next",
+      "prev": "⏮ Prev",
+      "not_implemented": "⚠️ This feature is not implemented yet.",
+      "previous_unavailable": "⚠️ Previous track is unavailable because history is not tracked.",
+      "serial_coming_soon": "⏳ This feature will be available soon.",
+      "seek_unavailable": "⚠️ Seek is not supported by the current engine.",
+      "speed_unavailable": "⚠️ Speed control is not supported by the current engine.",
+      "repeat_on": "🔁 Repeat: On",
+      "repeat_off": "🔁 Repeat: Off",
+      "fav_add": "⭐ Add to Favorites",
+      "fav_play": "⭐ Play Favorites",
+      "seek_invalid_seconds": "⚠️ Invalid seek amount.",
+      "seek_live_unsupported": "⚠️ Seek is not supported for live playback.",
+      "seek_unsupported_media": "⚠️ Seek is not supported for this media type.",
+      "seek_source_unavailable": "⚠️ Seekable source is unavailable.",
+      "seek_end": "You are at the end of the media.",
+      "seek_start": "You are at the start of the media.",
+      "seek_failed": "⚠️ Seek failed.",
+      "seek_set_position": "⏩ Playback position: {position}",
+      "speed_max": "Speed is already at maximum: {speed}x",
+      "speed_min": "Speed is already at minimum: {speed}x",
+      "speed_live_unsupported": "⚠️ Speed control is not supported for live playback.",
+      "speed_unsupported_media": "⚠️ Speed control is not supported for this media type.",
+      "speed_source_unavailable": "⚠️ Speed-adjustable source is unavailable.",
+      "speed_change_failed": "⚠️ Speed change failed.",
+      "speed_set_position": "🎚 Playback speed: {speed}x"
+    },
+    "type_hints": {
+      "audio": "To play audio, type: <code>play [song name]</code> or <code>play [link]</code>.\nYou can also reply to an audio file and type: <code>play</code>.",
+      "video": "To play video, type: <code>playvideo [link]</code>.\nYou can also reply to a video file and type: <code>play</code>.",
+      "download": "To download, use <code>/download</code> while replying to an audio/video file or link."
+    },
+    "queue": {
+      "empty": "⚠️ The queue is empty.",
+      "added": "✅ Added to queue.",
+      "skipped": "⏭ Track skipped."
+    },
+    "repeat_enabled": "✅ Repeat mode <b>On</b> 🔁",
+    "repeat_disabled": "❌ Repeat mode <b>Off</b> 🔁"
+  },
+  "now_playing": {
+    "header": "<b>🎧 Now Playing</b>",
+    "header_audio": "<b>🎵 Music Playing</b>",
+    "header_video": "<b>🎬 Video Playing</b>",
+    "status_playing": "▪️ Status: Playing",
+    "title_line": "▪️ Title: {title}",
+    "media_type_line": "▪️ Type: {media_type}",
+    "duration_line": "▪️ Duration: {duration}",
+    "requester_line": "▪️ Requested by: {requester}",
+    "unknown_title": "Unknown",
+    "audio": "Audio",
+    "video": "Video",
+    "radio": "Radio",
+    "tv": "TV",
+    "satellite": "Satellite",
+    "track_id": "▪️ Track ID: {track_id}",
+    "minimal_title": "<b>🎧 Now Playing</b>"
+  }
+}

@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: musicbot
+      POSTGRES_PASSWORD: devpassword
+      POSTGRES_DB: musicbot_test
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U musicbot -d musicbot_test"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6380:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - app/config.env.test
+    environment:
+      DATABASE_URL: postgresql+asyncpg://musicbot:devpassword@postgres:5432/musicbot_test
+      REDIS_URL: redis://redis:6379/0
+      TEST_MODE: "1"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./app/logs:/workspace/app/logs
+      - ./app/sessions:/workspace/app/sessions
+      - ./app/downloads:/workspace/app/downloads
+    restart: unless-stopped

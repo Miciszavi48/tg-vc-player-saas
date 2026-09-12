@@ -1,0 +1,20 @@
+{
+  "notifications": {
+    "install": "<b>📥 نصب جدید</b>\n\n▪️ چت: {chat_title}\n▪️ نوع: {chat_type}\n▪️ شناسه: <code>{chat_id}</code>\n▪️ نصب‌کننده: {sudo_info}\n▪️ نقش: {installer_role}\n▪️ سیاست نصب: {policy_mode}\n▪️ زمان: {timestamp}",
+    "sudo_added": "<b>➕ افزودن سودو</b>\n\n▪️ کاربر: <code>{target_user_id}</code> ({username})\n▪️ توسط: <code>{actor_id}</code>\n▪️ زمان: {timestamp}",
+    "sudo_removed": "<b>➖ عزل سودو</b>\n\n▪️ کاربر: <code>{target_user_id}</code>\n▪️ توسط: <code>{actor_id}</code>\n▪️ زمان: {timestamp}",
+    "owner_added": "<b>➕ افزودن مالک پلیر</b>\n\n▪️ کاربر: <code>{target_user_id}</code> ({username})\n▪️ توسط: <code>{actor_id}</code>\n▪️ زمان: {timestamp}",
+    "owner_removed": "<b>➖ عزل مالک پلیر</b>\n\n▪️ کاربر: <code>{target_user_id}</code>\n▪️ توسط: <code>{actor_id}</code>\n▪️ زمان: {timestamp}",
+    "bot_start": "<b>▶️ ربات استارت شد</b>\n\n▪️ کاربر: <code>{user_id}</code> ({username})\n▪️ نقش: {role}\n▪️ زمان: {timestamp}",
+    "uninstall": "<b>📤 حذف نصب</b>\n\n▪️ چت: {chat_title}\n▪️ نوع: {chat_type}\n▪️ شناسه: <code>{chat_id}</code>",
+    "credit_charge": "<b>💳 شارژ اعتبار</b>\n\n▪️ شناسه چت: <code>{chat_id}</code>\n▪️ مقدار شارژ: {days} روز\n▪️ توسط: {sudo_info}\n▪️ زمان: {timestamp}",
+    "credit_warning": "<b>⚠️ هشدار اتمام اعتبار</b>\n\n▪️ شناسه چت: <code>{chat_id}</code>\n▪️ اعتبار باقی‌مانده: {remaining_days} روز\n\n💡 لطفاً برای جلوگیری از خروج ربات، هرچه سریع‌تر اعتبار خود را تمدید کنید.",
+    "credit_expired": "<b>⏰ اتمام اعتبار</b>\n\n▪️ شناسه چت: <code>{chat_id}</code>\n\n💡 اعتبار این گروه به پایان رسید. برای استفاده مجدد، باید اعتبار شارژ شود.",
+    "error": "❌ <b>خطا:</b> {error_text}",
+    "health_degraded": "<b>⚠️ هشدار سلامت سیستم</b>\n\n▪️ وضعیت: DEGRADED\n▪️ سرویس‌های ناموفق: {failed}",
+    "credit_warning_sudo_dm": "⚠️ هشدار اعتبار: چت <code>{chat_id}</code> تنها {remaining_days} روز اعتبار دارد.",
+    "credit_expired_sudo_dm": "⏰ اعتبار چت <code>{chat_id}</code> به پایان رسید.",
+    "auto_leave_sudo_dm": "<b>⚠️ خروج خودکار</b>\n\n▪️ چت: {chat_title} (<code>{chat_id}</code>)\n▪️ دلیل: اتمام اعتبار\n\n💡 لطفاً برای شارژ مجدد اقدام کنید.",
+    "credit_by_user": "کاربر <code>{user_id}</code>"
+  }
+}

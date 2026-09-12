@@ -1,0 +1,6 @@
+{
+  "errors": {
+    "install_paid_required": "Installation of this player requires payment.",
+    "install_whitelisted_free": "This group/channel is on the free install list."
+  }
+}

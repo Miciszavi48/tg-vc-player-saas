@@ -1,0 +1,42 @@
+{
+  "start": {
+    "welcome": "<b>🎵 Telegram Music Player Bot</b>\n\nHello {mention} ! ♡\nWelcome to the advanced music & video player.\n\n▪️ Please select an option from the menu below:",
+    "menu_title": "<b>🎵 Main Menu</b>",
+    "menu": {
+      "force_join": "📢 Force Join Channels",
+      "pricing": "💳 Bot Pricing",
+      "buy_from_creator": "🛒 Buy from Creator",
+      "buy_from_sudo_1": "🛒 Buy from Sudo 1",
+      "buy_from_sudo_2": "🛒 Buy from Sudo 2",
+      "guide_channel": "📖 Guide",
+      "bot_channel": "📢 Bot Channel",
+      "support_group": "🛠 Support",
+      "custom_link": "🔗 Custom Link",
+      "developer_panel": "🧰 Developer Panel",
+      "management_panel": "🛡 Management Panel",
+      "add_to_group": "➕ Add to Group",
+      "add_to_channel": "➕ Add to Channel",
+      "about": "ℹ️ About Us"
+    },
+    "force_join": {
+      "title": "<b>📢 Force Join</b>",
+      "empty": "⚠️ No force join channels configured."
+    },
+    "customization": {
+      "no_category_content": "⚠️ No content is configured for this section yet.",
+      "source_unavailable": "⚠️ The saved content is unavailable. Please try again later.",
+      "test_unavailable": "⚠️ The test section is not available in the current install mode.",
+      "buttons": {
+        "purchase": "Buy bot from us",
+        "test": "Bot test tutorial",
+        "use": "Why buy",
+        "history": "History",
+        "ability": "Features",
+        "commands": "Commands channel",
+        "support": "Support group",
+        "note": "Guide"
+      }
+    },
+    "about_text": "<b>🎵 About Music & Video Player Bot</b>\n\n▪️ Version: <code>2.0</code>\n▪️ Developer: {developer_link}\n\n✧ Professional music & video streaming in Telegram Voice Chats with high quality and stability."
+  }
+}

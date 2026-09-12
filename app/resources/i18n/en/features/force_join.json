@@ -1,0 +1,37 @@
+{
+  "force_join_mgmt": {
+    "added": "✅ Channel {channel} added to force join.",
+    "removed": "❌ Channel {channel} removed from force join.",
+    "list_title": "<b>📋 Force Join Channels</b>",
+    "list_empty": "⚠️ No channels registered.",
+    "not_joined": "⛔ Please join these channels to use the bot:",
+    "join_button": "Join {channel}",
+    "check_button": "✅ Check Membership",
+    "menu_title": "<b>⚙️ Force Join Management</b>",
+    "menu_desc": "Configure channels users must join before using the bot.",
+    "add_btn": "➕ Add Channel",
+    "list_btn": "📋 Channel List",
+    "remove_item_btn": "🗑 Remove {channel_id}",
+    "list_item": "✧ {badge} {title}\n▪️ ID: <code>{channel_id}</code>\n▪️ Username: {username}\n▪️ Status: {status}",
+    "status_ok": "OK",
+    "status_pending": "Pending",
+    "status_bot_not_admin": "Bot is not admin",
+    "status_inaccessible": "Inaccessible",
+    "status_unknown": "Unknown",
+    "add_prompt": "▪️ Send the channel username or ID:",
+    "invalid_identifier": "⚠️ Invalid identifier.",
+    "add_inaccessible": "⛔ Bot lacks access to this channel.",
+    "add_bot_not_admin": "⚠️ Bot is not an admin in this channel.",
+    "remove_not_found": "⚠️ Channel not found.",
+    "remove_confirm_prompt": "❓ Remove {channel_id} from force join?",
+    "not_allowed": "⛔ Access denied."
+  },
+  "fm": {
+    "join_required": "⛔ Please join these channels to use the bot:",
+    "join_button": "Join {channel}",
+    "check_button": "✅ Check Membership",
+    "check_passed": "✅ Membership verified.",
+    "check_failed": "⚠️ You have not joined all required channels yet.",
+    "rate_limited": "Please wait a moment before checking again."
+  }
+}

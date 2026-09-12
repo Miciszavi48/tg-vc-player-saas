@@ -1,0 +1,39 @@
+{
+  "bot_update": {
+    "button": "Bot Update / Reload",
+    "home_button": "Bot Update / Diagnostics",
+    "title": "┈┅┅━━| ◆ Bot Update / Diagnostics ◆ |━━┅┅┈",
+    "refresh_button": "Refresh Diagnostics",
+    "reload_button": "Request Bot Reload",
+    "reload_confirm_yes": "Confirm Reload",
+    "reload_confirm_no": "Cancel",
+    "reload_confirm_prompt": "Confirm the configured safe reload action. This may restart the bot process.",
+    "reload_not_configured": "Reload is not configured. Set BOT_RELOAD_SENTINEL_PATH or BOT_RELOAD_COMMAND in config.env.",
+    "reload_disabled": "Reload is disabled (BOT_RELOAD_ENABLED=false).",
+    "reload_sentinel_configured": "Reload: sentinel file strategy is configured.",
+    "reload_command_configured": "Reload: external command strategy is configured.",
+    "reload_submitted": "Reload request submitted successfully.",
+    "reload_failed": "Reload failed: {detail}",
+    "reload_cancelled": "Reload cancelled.",
+    "reload_wrong_user": "This confirmation is bound to another user.",
+    "reload_stale_confirm": "This confirmation has expired. Open Bot Update again.",
+    "reload_result_line": "Result: {detail}",
+    "status_ok": "OK",
+    "status_fail": "Failed",
+    "status_unknown": "Unknown",
+    "runtime_line": "Python {python} on {platform} · Uptime {uptime_hours}h {uptime_minutes}m",
+    "connectivity_line": "DB: {db} · Redis: {redis} · Telegram: {telegram}",
+    "services_line": "Scheduler: {scheduler} · PyTgCalls: {pytgcalls} · Bot enabled: {bot_enabled}",
+    "workload_line": "Active calls: {active_calls} · Helpers: {helpers_active}/{helpers_total}",
+    "resources_line": "Process RAM: {memory_mb} MB · CPU: {cpu_percent}%",
+    "media_tools_line": "yt-dlp: {ytdlp} · ffmpeg: {ffmpeg}",
+    "errors_header": "Recent error counters (analytics, yesterday):",
+    "error_metric_line": "• {metric}: {count}",
+    "errors_unavailable": "No structured error store summary is available. Check server logs for stack traces."
+  },
+  "recovery": {
+    "start": "🔄 State recovery started...",
+    "progress": "⏳ Recovery: {current}/{total} ({percent}%)",
+    "done": "✅ Recovery complete. {recovered} items recovered."
+  }
+}

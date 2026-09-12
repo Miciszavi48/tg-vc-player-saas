@@ -1,0 +1,16 @@
+{
+  "name": "read_skill",
+  "description": "Step 2 of 3. Retrieves a skill by name and returns its full instructions.\nWhen to call: (a) After search_skills, using the skill name from results. (b) Directly, if the user explicitly requests a skill by name (e.g. \"use the codenavi skill\").\nInput: The exact skill name (kebab-case, e.g. \"react-composition-patterns\").\nReturns: [0] The skill's main instructions (SKILL.md). [1] A list of available reference file paths (scripts/, references/, assets/).\nThen: Apply the skill instructions. Only call fetch_skill_files if the instructions reference specific files you need.",
+  "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "skill_name": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "skill_name"
+    ]
+  }
+}

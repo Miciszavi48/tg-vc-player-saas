@@ -1,0 +1,29 @@
+{
+  "status": {
+    "bot_info": "┈┅┅━━| ◆ Bot Dashboard ◆ |━━┅┅┈\n\n─━┅━| 🌐 Resources & Users |━┅━─\n⊹ Active Groups : {groups}\n⊹ Active Channels : {channels}\n⊹ Registered Private Users (global) : {users}\n\n─━┅━| 👥 Team |━┅━─\n⊹ Sudos : {sudos}\n⊹ Helpers Online : {helpers}\n\n─━┅━| 🎵 Services |━┅━─\n⊹ Active Calls : {active_calls}\n\n─━┅━| 🖥 Server |━┅━─\n⊹ CPU : {cpu}%\n⊹ RAM : {ram_used} / {ram_total} MB ({ram_pct}%)\n⊹ Disk : {disk_used} / {disk_total} GB ({disk_pct}%)\n⊹ Uptime : {uptime}\n\n─━━━━━━━━━━━━━━━━━━━━━━━━━─",
+    "rate_updated": "◆ Rate successfully set to {value} ✓",
+    "setting_updated": "◆ Settings updated successfully ✓",
+    "toggled_on": "◆ {feature} enabled ✅",
+    "toggled_off": "◆ {feature} disabled ❌",
+    "force_join_label": "Force Join",
+    "auto_leave_label": "Auto Leave",
+    "trial_label": "Trial Credit",
+    "bot_enabled_label": "Bot Service",
+    "sudo_panel_enabled_label": "Sudo Panel",
+    "bot_disabled": "◂ The bot is temporarily disabled by the developer. Please try again later.",
+    "sudo_panel_disabled": "◂ The sudo panel is currently disabled by the developer.",
+    "limit_updated": "✅ Install limit updated to {value}.",
+    "setting_value": "{feature}: {value}",
+    "invoice_created": "Invoice created successfully (#{invoice_id}).",
+    "uptime_fmt": "{hours}h {minutes}m"
+  },
+  "status_summary": {
+    "title": "\n\n─━┅━| 📊 Service Status |━┅━─",
+    "row": "⊹ {feature} : {state}",
+    "feature_forced_membership": "Forced Membership",
+    "feature_auto_leave": "Auto-Leave",
+    "feature_trial": "Trial Credits",
+    "feature_bot_enabled": "Bot Service",
+    "feature_sudo_panel": "Sudo Panel"
+  }
+}

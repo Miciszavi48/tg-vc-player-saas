@@ -1,0 +1,17 @@
+{
+  "ask": {
+    "chat_id": "Please send the chat ID:",
+    "amount_days": "Please send the number of days:",
+    "rate_value": "Please send the new rate value:",
+    "user_id": "Please send the user ID:",
+    "text_input": "Please send the text:",
+    "broadcast_msg": "Please send the message to broadcast:",
+    "channel_id": "Please send the channel ID:",
+    "word_input": "Please send the word:",
+    "link_input": "Please send the link:",
+    "limit_value": "Please send the new limit value:",
+    "search_query": "Please send the song or video title:",
+    "volume_value": "Please enter the volume (1 to 200):",
+    "timeout": "◂ Response timed out ⏰\n⊹ Please try again from the menu."
+  }
+}

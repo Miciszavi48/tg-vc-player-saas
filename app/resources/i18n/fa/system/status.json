@@ -1,0 +1,29 @@
+{
+  "status": {
+    "bot_info": "<b>📊 آمار و وضعیت ربات</b>\n\n<b>🌐 منابع و کاربران</b>\n▪️ گروه‌های فعال: {groups}\n▪️ کانال‌های فعال: {channels}\n▪️ کاربران خصوصی ثبت‌شده (سراسری): {users}\n\n<b>👥 تیم</b>\n▪️ سودوها: {sudos}\n▪️ هلپرهای آنلاین: {helpers}\n\n<b>🎵 سرویس‌ها</b>\n▪️ تماس‌های صوتی فعال: {active_calls}\n\n<b>🖥 سرور</b>\n▪️ پردازنده: {cpu}%\n▪️ حافظه: {ram_used} / {ram_total} MB ({ram_pct}%)\n▪️ دیسک: {disk_used} / {disk_total} GB ({disk_pct}%)\n▪️ آپتایم: {uptime}",
+    "rate_updated": "✅ نرخ جدید با موفقیت به <code>{value}</code> تومان تغییر یافت.",
+    "setting_updated": "✅ تنظیمات با موفقیت ذخیره شد.",
+    "toggled_on": "✅ قابلیت <b>{feature}</b> فعال شد.",
+    "toggled_off": "❌ قابلیت <b>{feature}</b> غیرفعال شد.",
+    "force_join_label": "عضویت اجباری",
+    "auto_leave_label": "خروج خودکار",
+    "trial_label": "اعتبار آزمایشی",
+    "bot_enabled_label": "وضعیت سرویس‌دهی ربات",
+    "sudo_panel_enabled_label": "پنل سودو",
+    "bot_disabled": "⚠️ ربات موقتاً توسط برنامه‌نویس غیرفعال شده است. لطفاً بعداً تلاش کنید.",
+    "sudo_panel_disabled": "⚠️ پنل سودو در حال حاضر غیرفعال است.",
+    "limit_updated": "✅ محدودیت نصب به <code>{value}</code> تغییر یافت.",
+    "setting_value": "▪️ {feature}: {value}",
+    "invoice_created": "✅ فاکتور <code>#{invoice_id}</code> با موفقیت ایجاد شد.",
+    "uptime_fmt": "{hours} ساعت و {minutes} دقیقه"
+  },
+  "status_summary": {
+    "title": "\n\n<b>⚙️ وضعیت قابلیت‌های ربات:</b>",
+    "row": "▪️ {feature}: {state}",
+    "feature_forced_membership": "عضویت اجباری",
+    "feature_auto_leave": "خروج خودکار",
+    "feature_trial": "اعتبار آزمایشی",
+    "feature_bot_enabled": "سرویس‌دهی",
+    "feature_sudo_panel": "پنل سودو"
+  }
+}

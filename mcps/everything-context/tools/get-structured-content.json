@@ -1,0 +1,22 @@
+{
+  "name": "get-structured-content",
+  "description": "Returns structured content along with an output schema for client data validation",
+  "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "location": {
+        "type": "string",
+        "enum": [
+          "New York",
+          "Chicago",
+          "Los Angeles"
+        ],
+        "description": "Choose city"
+      }
+    },
+    "required": [
+      "location"
+    ]
+  }
+}

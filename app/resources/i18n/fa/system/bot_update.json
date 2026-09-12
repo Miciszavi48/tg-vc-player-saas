@@ -1,0 +1,39 @@
+{
+  "bot_update": {
+    "button": "🔄 آپدیت ربات",
+    "home_button": "🔄 آپدیت و عیب‌یابی",
+    "title": "<b>🛠 پنل آپدیت و عیب‌یابی ربات</b>",
+    "refresh_button": "🔄 به‌روزرسانی آمار",
+    "reload_button": "🚀 ری‌استارت ربات",
+    "reload_confirm_yes": "تأیید ری‌استارت",
+    "reload_confirm_no": "انصراف",
+    "reload_confirm_prompt": "❓ <b>آیا از ری‌استارت ربات اطمینان دارید؟</b>\n\nاین عملیات ممکن است باعث قطعی کوتاه شود.",
+    "reload_not_configured": "⚠️ قابلیت ری‌استارت در فایل <code>config.env</code> کانفیگ نشده است.",
+    "reload_disabled": "⚠️ قابلیت ری‌استارت غیرفعال است.",
+    "reload_sentinel_configured": "▪️ وضعیت: <code>Sentinel File Strategy</code>",
+    "reload_command_configured": "▪️ وضعیت: <code>External Command Strategy</code>",
+    "reload_submitted": "✅ درخواست ری‌استارت با موفقیت ارسال شد.",
+    "reload_failed": "❌ خطا در ری‌استارت: {detail}",
+    "reload_cancelled": "❌ عملیات لغو شد.",
+    "reload_wrong_user": "⛔ شما اجازه تایید این درخواست را ندارید.",
+    "reload_stale_confirm": "⏱ مهلت تأیید به پایان رسید.",
+    "reload_result_line": "▪️ نتیجه: {detail}",
+    "status_ok": "✅ سالم",
+    "status_fail": "❌ خطا",
+    "status_unknown": "❓ نامشخص",
+    "runtime_line": "▪️ پایتون {python} روی {platform} (آپتایم: {uptime_hours}h {uptime_minutes}m)",
+    "connectivity_line": "▪️ دیتابیس: {db} | ردیس: {redis} | تلگرام: {telegram}",
+    "services_line": "▪️ زمان‌بند: {scheduler} | موتور تماس: {pytgcalls} | ربات: {bot_enabled}",
+    "workload_line": "▪️ تماس‌های فعال: {active_calls} | هلپرها: {helpers_active}/{helpers_total}",
+    "resources_line": "▪️ رم: {memory_mb} MB | پردازنده: {cpu_percent}%",
+    "media_tools_line": "▪️ ابزار yt-dlp: {ytdlp} | ابزار ffmpeg: {ffmpeg}",
+    "errors_header": "<b>📉 خطاهای اخیر (آنالیتیکس):</b>",
+    "error_metric_line": "✧ {metric}: {count}",
+    "errors_unavailable": "⚠️ داده‌های خطا در دسترس نیست."
+  },
+  "recovery": {
+    "start": "🔄 <b>بازیابی وضعیت در حال انجام است...</b>",
+    "progress": "⏳ پیشرفت: {current}/{total} ({percent}%)",
+    "done": "✅ <b>بازیابی کامل شد</b> ({recovered} مورد)"
+  }
+}

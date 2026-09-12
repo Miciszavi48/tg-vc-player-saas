@@ -1,0 +1,25 @@
+{
+  "name": "fetch_skill_files",
+  "description": "Step 3 of 3 (optional). Fetch reference files that a skill's instructions told you to load.\nInput: skill_name + up to 5 file_paths from the reference list returned by read_skill.\nReturns: The content of each requested file, separated by --- delimiters.\nConstraints: Only paths from read_skill's reference list are valid — never guess or construct paths. Make multiple calls if you need more than 5 files.",
+  "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "skill_name": {
+        "type": "string"
+      },
+      "file_paths": {
+        "minItems": 1,
+        "maxItems": 5,
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "skill_name",
+      "file_paths"
+    ]
+  }
+}

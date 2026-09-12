@@ -1,0 +1,17 @@
+{
+  "name": "findSkills",
+  "description": "Busca skills en el ecosistema skills.sh por palabra clave",
+  "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "query": {
+        "type": "string",
+        "description": "Palabra clave para buscar skills"
+      }
+    },
+    "required": [
+      "query"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "selectSkill",
+  "description": "Recomienda el skill más relevante para una tarea concreta",
+  "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "task": {
+        "type": "string",
+        "description": "Descripción de la tarea para la que necesitas un skill"
+      }
+    },
+    "required": [
+      "task"
+    ]
+  }
+}
